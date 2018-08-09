@@ -1,0 +1,9 @@
+{
+  "docs": {
+    "Getting Started": ["intro", "installation"],
+    "Tutorials": ["tutorials"]
+  },
+  "docs-other": {
+    "Models API": ["models"]
+  }
+}
