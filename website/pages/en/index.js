@@ -129,7 +129,7 @@ class Index extends React.Component {
               />
                 download
               </a>
-              <a className="btn" href={docUrl('getting-started.html', language)}>
+              <a className="btn" href={docUrl('intro.html', language)}>
                 get started
               </a>
             </div>
@@ -159,7 +159,7 @@ class Index extends React.Component {
               It also provides a bunch of useful tools including interactive
               graph and grid views.
             </p>
-            <a className="learnmore" href="/docs/getting-started.html">
+            <a className="learnmore" href={docUrl('intro.html', language)}>
               Learn more
             </a>
           </div>
