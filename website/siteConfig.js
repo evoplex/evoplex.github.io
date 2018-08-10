@@ -8,7 +8,7 @@ const siteConfig = {
   organizationName: 'evoplex',
 
   headerLinks: [
-    {page: 'index/#download', label: 'Download'},
+    {page: 'index#download', label: 'Download'},
     {doc: 'intro', label: 'Docs'},
     {doc: 'models', label: 'API'},
     {page: 'help', label: 'Help'},
@@ -73,9 +73,14 @@ const siteConfig = {
   /* enable edit button for docs */
   editUrl: 'https://github.com/evoplex/evoplex.github.io/edit/master/docs/',
 
+  translationRecruitingLink: 'https://crowdin.com/project/evoplex',
+
   algolia: {
     apiKey: 'b5d037992e4300291c91d12e7bc13788',
-    indexName: 'evoplex.org'
+    indexName: 'evoplex.org',
+    algoliaOptions: {
+      facetFilters: ['language:LANGUAGE', 'version:VERSION'],
+    },
   },
   cleanUrl: true,
   scrollToTop: true,

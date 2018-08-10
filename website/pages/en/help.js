@@ -12,32 +12,30 @@ const CompLibrary = require('../../core/CompLibrary.js');
 const Container = CompLibrary.Container;
 const GridBlock = CompLibrary.GridBlock;
 
-const siteConfig = require(process.cwd() + '/siteConfig.js');
+const translate = require('../../server/translate.js').translate;
 
-function docUrl(doc, language) {
-  return siteConfig.baseUrl + 'docs/' + (language ? language + '/' : '') + doc;
-}
+const siteConfig = require(process.cwd() + '/siteConfig.js');
 
 class Help extends React.Component {
   render() {
     let language = this.props.language || '';
     const supportLinks = [
       {
-        title: 'Browse Docs',
-        content: `Learn more about Evoplex using the [official documentation.](${docUrl('intro.html', language)})`,
+        title: <translate>Browse Docs</translate>,
+        content: (<translate>Learn more about Evoplex using the [official documentation.](/docs/en/intro.html)</translate>),
       },
       {
-        title: 'Join the community',
-        content: `
+        title: <translate>Join the community</translate>,
+        content: (<translate>
   * Ask questions in the [mailing list](https://groups.google.com/group/evoplex) or send an email to evoplex@googlegroups.com
 
   * You can follow and contact us on [Twitter](https://twitter.com/EvoplexOrg).
 
-  * If chat is more your speed, you can join us on [Gitter](https://gitter.im/EvoplexOrg/evoplex).`,
+  * If chat is more your speed, you can join us on [Gitter](https://gitter.im/EvoplexOrg/evoplex).</translate>),
       },
       {
-        title: 'Bugs and Requests',
-        content: `At our [GitHub repository](https://github.com/evoplex/evoplex), browse and submit [issues](https://github.com/evoplex/evoplex/issues) or [pull requests](https://github.com/evoplex/evoplex/pulls) for bugs you find or any new features you may want implemented. Be sure to also check out our [contributing guidelines](https://github.com/evoplex/evoplex/blob/master/CONTRIBUTING.md).`,
+        title: <translate>Bugs and Requests</translate>,
+        content: (<translate>At our [GitHub repository](https://github.com/evoplex/evoplex), browse and submit [issues](https://github.com/evoplex/evoplex/issues) or [pull requests](https://github.com/evoplex/evoplex/pulls) for bugs you find or any new features you may want implemented. Be sure to also check out our [contributing guidelines](https://github.com/evoplex/evoplex/blob/master/CONTRIBUTING.md).</translate>),
       },
     ];
 
@@ -48,7 +46,7 @@ class Help extends React.Component {
             <header className="postHeader">
               <h1>Need help?</h1>
             </header>
-            <p>If you need help with Evoplex, you can try one of the channels below.</p>
+            <p><translate>If you need help with Evoplex, you can try one of the channels below.</translate></p>
             <GridBlock contents={supportLinks} layout="threeColumn" />
           </div>
         </Container>
@@ -56,5 +54,9 @@ class Help extends React.Component {
     );
   }
 }
+
+Help.defaultProps = {
+  language: 'en',
+};
 
 module.exports = Help;

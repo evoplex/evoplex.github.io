@@ -6,11 +6,13 @@
 
 const React = require('react');
 
-const siteConfig = require(process.cwd() + '/siteConfig.js');
-
 const CompLibrary = require('../../core/CompLibrary.js');
 const Container = CompLibrary.Container;
 const GridBlock = CompLibrary.GridBlock;
+
+const translate = require('../../server/translate.js').translate;
+
+const siteConfig = require(process.cwd() + '/siteConfig.js');
 
 function imgUrl(img) {
   return siteConfig.baseUrl + 'img/' + img;
@@ -115,13 +117,13 @@ class Index extends React.Component {
       <div>
         <div className="splash">
           <div className="content">
-            <h1>agent-based modeling,
-            the right way!</h1>
-            <h2>
+            <h1><translate>agent-based modeling,
+            the right way!</translate></h1>
+            <h2><translate>
               Evoplex is a fast, robust and extensible platform to implement
               either Agent&#8209;Based Models (ABM) or Multi-Agent Systems (MAS)
               imposing a theoretical-graph approach.
-            </h2>
+            </translate></h2>
             <div className="row">
               <a className="btn primary" href="#download">
               <img className="download-icon" src={imgUrl('download.svg')}
@@ -130,7 +132,7 @@ class Index extends React.Component {
                 download
               </a>
               <a className="btn" href={docUrl('intro.html', language)}>
-                get started
+                <translate>get started</translate>
               </a>
             </div>
             <img
@@ -149,26 +151,26 @@ class Index extends React.Component {
             />
           </div>
           <div className="col">
-            <h4>Features</h4>
-            <h3>Really Fast</h3>
-            <p>
+            <h4><translate>Features</translate></h4>
+            <h3><translate>Really Fast</translate></h3>
+            <p><translate>
               Evoplex is simple, user-friendly and was built with performance
               in mind from the start. Just select a model, list your experiments
               and click on run. Evoplex will automatically distribute the experiments
               in parallel on multiple cores.
               It also provides a bunch of useful tools including interactive
               graph and grid views.
-            </p>
+            </translate></p>
             <a className="learnmore" href={docUrl('intro.html', language)}>
-              Learn more
+              <translate>Learn more</translate>
             </a>
           </div>
         </div>
         <div className="content row">
           <div className="col">
-            <h4>Plugins</h4>
-            <h3>Code Once, Run Everywhere</h3>
-            <p>
+            <h4><translate>Plugins</translate></h4>
+            <h3><translate>Code Once, Run Everywhere</translate></h3>
+            <p><translate>
               Have you ever had to run the same model for a wide range of
               different settings? Or had to run the same experiment multiple
               times to investigate the effects of randomness?
@@ -176,9 +178,9 @@ class Index extends React.Component {
               to write ugly scripts to make simple things work.
               Evoplex changes the paradigm of implementing models
               by allowing you to do it only once and never touch it again.
-            </p>
+            </translate></p>
             <a className="learnmore" href={docUrl('models.html', language)}>
-              Learn more
+              <translate>Learn more</translate>
             </a>
           </div>
           <div className="col center">
@@ -196,16 +198,16 @@ class Index extends React.Component {
             />
           </div>
           <div className="col">
-            <h4>Open Source</h4>
-            <h3>Contributing to Evoplex</h3>
-            <p>
+            <h4><translate>Open Source</translate></h4>
+            <h3><translate>Contributing to Evoplex</translate></h3>
+            <p><translate>
               Evoplex is a free and open-source software licensed under the
               GPLv3 terms. We encourage you to join the community and help
               us to improve Evoplex. There are many ways that you can contribute,
               beyond writing code.
-            </p>
+            </translate></p>
             <a className="learnmore" href="https://github.com/evoplex/evoplex/blob/master/CONTRIBUTING.md" target="_blank">
-              Learn more
+              <translate>Learn more</translate>
             </a>
           </div>
         </div>
@@ -216,5 +218,9 @@ class Index extends React.Component {
     );
   }
 }
+
+Index.defaultProps = {
+  language: 'en',
+};
 
 module.exports = Index;
