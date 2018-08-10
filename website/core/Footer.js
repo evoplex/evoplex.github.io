@@ -28,7 +28,7 @@ class Footer extends React.Component {
           </a>
           <div>
             <h5>Docs</h5>
-            <a href={this.docUrl('getting-started.html', this.props.language)}>
+            <a href={this.docUrl('intro.html', this.props.language)}>
               Getting Started
             </a>
           </div>
@@ -40,9 +40,9 @@ class Footer extends React.Component {
               rel="noreferrer noopener">
               Mailing list
             </a>
-            <a href="https://gitter.im/EvoplexMAS">Project Chat</a>
+            <a href="https://gitter.im/EvoplexOrg">Project Chat</a>
             <a
-              href="https://twitter.com/EvoplexMAS"
+              href="https://twitter.com/EvoplexOrg"
               target="_blank"
               rel="noreferrer noopener">
               Twitter

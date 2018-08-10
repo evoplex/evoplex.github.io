@@ -3,7 +3,7 @@ id: download-windows
 title: Evoplex for Windows
 ---
 
-# Evoplex Installer for Windows (binaries) <img src="/img/windows-logo.png" width="25">
+## Evoplex Installer for Windows (binaries) <img src="/img/windows-logo.png" width="25" style="vertical-align: sub;">
 
 The installation on Windows is very straightforward:
 
@@ -19,28 +19,29 @@ The installer should work fine on Windows 7, 8 and 10
 
 | Version             | Release Date  | Compiler  | Qt    |     |
 | ------------------- |:-------------:| ---------:| -----:| ---:|
-| [Evoplex 0.1.0 - Windows 64-bit](https://github.com/evoplex/evoplex/releases/download/0.1.0/evoplex_0.1.0.win64.exe) | Aug 06, 2018    | MSVC2017 | 5.11.1| [Release Notes](/blog/2018/08/06/evoplex-0.1.0-released) |
+| [<img src="/img/download-black.svg" width="17" style="vertical-align: sub;"> Evoplex 0.1.0 - Windows 64-bit](https://github.com/evoplex/evoplex/releases/download/0.1.0/evoplex_0.1.0.win64.exe) | Aug 06, 2018    | MSVC2017 | 5.11.1| [Release Notes](/blog/2018/08/06/evoplex-0.1.0-released) |
+
 
 
 ### Previous Releases
 
-| Version             | Release Date  | Compiler  | Qt    |     |
-| ------------------- |:-------------:| ---------:| -----:| ---:|
-| [Evoplex 0.1.0-alpha - Windows 64-bit](https://github.com/evoplex/evoplex/releases/download/0.1.0/evoplex_0.1.0.win64.exe) | Jun 21, 2018 | MSVC2017 | 5.9.1| Release Notes |
+| Version             | Release Date  | Compiler  | Qt    |
+| ------------------- |:-------------:| ---------:| -----:|
+| [<img src="/img/download-black.svg" width="17" style="vertical-align: sub;"> Evoplex 0.1.0-alpha - Windows 64-bit](https://github.com/evoplex/evoplex/releases/download/0.1.0/evoplex_0.1.0.win64.exe) | Jun 21, 2018 | MSVC2017 | 5.9.1|
 
 
-# Build from Source Code <img src="/img/windows-logo.png" width="25">
+## Build from Source Code <img src="/img/windows-logo.png" width="25" style="vertical-align: sub;">
 
 If you want to debug an issue or want to understand how Evoplex works, you'll want to get the source, build and run it. However, if you just want to use Evoplex, you don't need to compile it from source, you can install it directly from the [binary packages](#latest-stable-release).
 
 ### Getting the source code
 Assuming you have [Git](https://git-scm.com/downloads) installed on your computer, you can fork our repository on GitHub and clone it from `https://github.com/<your-username>/evoplex`, or you can clone it directly from our repository as follows:
-``` sh
+```sh
 git clone https://github.com/evoplex/evoplex.git evoplex/evoplex
 ```
 It will download the repository to `evoplex/evoplex` relative to your current directory.
 
-Alternatively, you can download the source code from a [.zip archive](https://github.com/evoplex/evoplex/archive/master.zip).
+Alternatively, you can download the source code from the [.zip archive](https://github.com/evoplex/evoplex/archive/master.zip).
 
 
 ### Installing dependencies

@@ -1,10 +1,15 @@
 ---
 title: Evoplex 0.1.0 Released
 author: Evoplex Team
-authorURL: http://twitter.com/evoplexMAS
+authorURL: http://twitter.com/EvoplexOrg
+authorImageURL: /logos/evoplex16.png
 ---
 
 Today we are releasing the version 0.1.0 for Evoplex.
+
+<!--truncate-->
+
+Download it [here](https://evoplex.org/#download)!
 
 The main changes for this version can be found below.
 

@@ -2,7 +2,7 @@
   "docs": {
     "Download  Install": ["download-linux","download-mac","download-windows"],
     "Getting Started": ["intro"],
-    "Tutorilas": ["tutorials"]
+    "Tutorials": ["tutorials"]
   },
   "docs-other": {
     "Models API": ["models"]

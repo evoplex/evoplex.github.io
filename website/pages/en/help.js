@@ -24,16 +24,16 @@ class Help extends React.Component {
     const supportLinks = [
       {
         title: 'Browse Docs',
-        content: `Learn more about Evoplex using the [official documentation.](${docUrl('getting-started.html', language)})`,
+        content: `Learn more about Evoplex using the [official documentation.](${docUrl('intro.html', language)})`,
       },
       {
         title: 'Join the community',
         content: `
   * Ask questions in the [mailing list](https://groups.google.com/group/evoplex) or send an email to evoplex@googlegroups.com
 
-  * You can follow and contact us on [Twitter](https://twitter.com/EvoplexMAS).
+  * You can follow and contact us on [Twitter](https://twitter.com/EvoplexOrg).
 
-  * If chat is more your speed, you can join us on [Gitter](https://gitter.im/EvoplexMAS/evoplex).`,
+  * If chat is more your speed, you can join us on [Gitter](https://gitter.im/EvoplexOrg/evoplex).`,
       },
       {
         title: 'Bugs and Requests',

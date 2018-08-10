@@ -3,7 +3,7 @@ id: download-mac
 title: Evoplex for macOS
 ---
 
-# DMG Packages <img src="/img/apple-logo.svg" width="25">
+## DMG Packages <img src="/img/apple-logo.svg" width="25" style="vertical-align: sub;">
 
 Evoplex is compatible with macOS 10.10+ and its installation is very straightforward:
 
@@ -22,4 +22,4 @@ Evoplex is compatible with macOS 10.10+ and its installation is very straightfor
 
 | Version             | Release Date  | Compiler  | Qt    |     |
 | ------------------- |:-------------:| ---------:| -----:| ---:|
-| [Evoplex 0.1.0 - x86_64 DMG](https://github.com/evoplex/evoplex/releases/download/0.1.0/evoplex-0.1.0.x86_64.dmg) | Aug 06, 2018    | AppleClang9.0 | 5.11.1| [Release Notes](/blog/2018/08/06/evoplex-0.1.0-released) |
+| [<img src="/img/download-black.svg" width="17" style="vertical-align: sub;"> Evoplex 0.1.0 - x86_64 DMG](https://github.com/evoplex/evoplex/releases/download/0.1.0/evoplex-0.1.0.x86_64.dmg) | Aug 06, 2018    | AppleClang9.0 | 5.11.1| [Release Notes](/blog/2018/08/06/evoplex-0.1.0-released) |

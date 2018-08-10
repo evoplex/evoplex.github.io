@@ -12,10 +12,6 @@ a img:hover {
   opacity: 0.7;
 }
 
-.blockContent a {
-  color: $actionColor;
-}
-
 /*
 body, h1, h2, h3, h4, h5, h6 {
   font-family: 'San Francisco', -apple-system, BlinkMacSystemFont,
@@ -352,7 +348,7 @@ footer iframe {
     padding: 12px;
 }
 
-
+/* 'download' button for index */
 .download-icon {
   margin-right: 10px;
   vertical-align: sub;
@@ -373,4 +369,65 @@ footer iframe {
 }
 a.downloadBtn {
   color: white;
+}
+
+/* 'copy' button for docs */
+pre {
+    position: relative
+}
+
+pre .btnIcon {
+    position: absolute;
+    top: 4px;
+    z-index: 2;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 0;
+    color: #fff;
+    background-color: transparent;
+    height: 30px;
+    transition: all .25s ease-out
+}
+
+pre .btnIcon:hover {
+    text-decoration: none
+}
+
+.btnIcon__body {
+    align-items: center;
+    display: flex
+}
+
+.btnIcon svg {
+    fill: currentColor;
+    margin-right: .4em
+}
+
+.btnIcon__label {
+    font-size: 11px
+}
+
+.btnClipboard {
+    right: 10px
+}
+
+/* blog stuff */
+.read-more .button {
+  color: $secondaryColor;
+}
+.read-more .button:hover {
+  color: white;
+}
+
+.post span a, .authorBlock a {
+  color: $actionColor;
+}
+
+.toc .toggleNav ul li a:hover,
+.toc .toggleNav ul li a:focus {
+  color: $actionColor;
+}
+
+.toc .toggleNav ul li.navListItemActive a {
+  color: $actionColor;
 }
