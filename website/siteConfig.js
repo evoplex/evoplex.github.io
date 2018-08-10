@@ -66,8 +66,7 @@ const siteConfig = {
 
   algolia: {
     apiKey: 'b5d037992e4300291c91d12e7bc13788',
-    indexName: 'evoplex.org',
-    appId: '8GKZSRYH2I',
+    indexName: 'evoplex.org'
   },
   cleanUrl: true,
   scrollToTop: true,
