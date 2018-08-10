@@ -55,7 +55,7 @@ class Download2 extends React.Component {
           imageLink: docUrl('download-mac.html', language),
           image: imgUrl('apple-logo.svg'),
           imageAlign: 'top',
-          title: 'Mac OS',
+          title: 'macOS',
         },
       ]}
       </Block>
@@ -177,7 +177,7 @@ class Index extends React.Component {
               Evoplex changes the paradigm of implementing models
               by allowing you to do it only once and never touch it again.
             </p>
-            <a className="learnmore" href="/docs/understand.html">
+            <a className="learnmore" href={docUrl('models.html', language)}>
               Learn more
             </a>
           </div>
@@ -204,7 +204,7 @@ class Index extends React.Component {
               us to improve Evoplex. There are many ways that you can contribute,
               beyond writing code.
             </p>
-            <a className="learnmore" href="/docs/js-setup.html">
+            <a className="learnmore" href="https://github.com/evoplex/evoplex/blob/master/CONTRIBUTING.md" target="_blank">
               Learn more
             </a>
           </div>

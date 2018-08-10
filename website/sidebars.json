@@ -1,7 +1,8 @@
 {
   "docs": {
-    "Getting Started": ["intro", "installation"],
-    "Tutorials": ["tutorials"]
+    "Download  Install": ["download-linux","download-mac","download-windows"],
+    "Getting Started": ["intro"],
+    "Tutorilas": ["tutorials"]
   },
   "docs-other": {
     "Models API": ["models"]
