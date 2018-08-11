@@ -1,10 +1,6 @@
 {
   "docs": {
-    "Download  Install": ["download-linux","download-mac","download-windows"],
-    "Getting Started": ["intro"],
-    "Tutorials": ["tutorials"]
-  },
-  "docs-other": {
-    "Models API": ["models"]
+    "Download & Install": ["download-linux","download-mac","download-windows"],
+    "Getting Started": ["intro", "user-interface"]
   }
 }

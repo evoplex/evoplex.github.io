@@ -15,7 +15,7 @@ The installer should work fine on Windows 7, 8 and 10
 
 > Need help? [click here](/help)
 
-### Latest Stable Release
+### Latest stable release
 
 | Version             | Release Date  | Compiler  | Qt    |     |
 | ------------------- |:-------------:| ---------:| -----:| ---:|
@@ -23,19 +23,21 @@ The installer should work fine on Windows 7, 8 and 10
 
 
 
-### Previous Releases
+### Past releases
 
 | Version             | Release Date  | Compiler  | Qt    |
 | ------------------- |:-------------:| ---------:| -----:|
 | [<img src="/img/download-black.svg" width="17" style="vertical-align: sub;"> Evoplex 0.1.0-alpha - Windows 64-bit](https://github.com/evoplex/evoplex/releases/download/0.1.0/evoplex_0.1.0.win64.exe) | Jun 21, 2018 | MSVC2017 | 5.9.1|
 
 
+
+
 ## Build from Source Code <img src="/img/windows-logo.png" width="25" style="vertical-align: sub;">
 
 If you want to debug an issue or want to understand how Evoplex works, you'll want to get the source, build and run it. However, if you just want to use Evoplex, you don't need to compile it from source, you can install it directly from the [binary packages](#latest-stable-release).
 
-### Getting the source code
-Assuming you have [Git](https://git-scm.com/downloads) installed on your computer, you can fork our repository on GitHub and clone it from `https://github.com/<your-username>/evoplex`, or you can clone it directly from our repository as follows:
+### 1. Getting the source code
+Assuming you have [Git](https://git-scm.com/downloads) installed on your computer, you can fork [our repository on GitHub](https://github.com/evoplex/evoplex) and clone it from `https://github.com/<your-username>/evoplex`, or you can clone it directly from our repository as follows:
 ```sh
 git clone https://github.com/evoplex/evoplex.git evoplex/evoplex
 ```
@@ -44,7 +46,7 @@ It will download the repository to `evoplex/evoplex` relative to your current di
 Alternatively, you can download the source code from the [.zip archive](https://github.com/evoplex/evoplex/archive/master.zip).
 
 
-### Installing dependencies
+### 2. Installing dependencies
 
 * **CMake >= 3.1.0:**
     * [Download](https://cmake.org/download) and install the latest version of CMake, eg., `cmake-3.11.3-win64-x64.msi`
@@ -69,8 +71,8 @@ Alternatively, you can download the source code from the [.zip archive](https://
 * **After installing all those dependencies, reboot the computer.**
 
 
-### Building from the command-line
-We assume that you have already obtained the source code and placed it at `C:\evoplex\evoplex\`. No? Please, follow the instructions [here](Getting-the-source-code) first.
+### 3a. Building from the command-line
+We assume that you have already obtained the source code and placed it at `C:\evoplex\evoplex\`. No? Please, follow the instructions [here](#1-getting-the-source-code) first.
 
 If you installed [Git](https://gitforwindows.org/) and all [dependencies](#installing-dependencies) correctly, you should have Git Bash installed on your computer.
 1. Open Git Bash
@@ -92,10 +94,9 @@ Now, to run Evoplex:
 ./releases/evoplex
 ```
 
-### Building with QtCreator
-We assume that you have already obtained the source code and placed it at `C:\evoplex\evoplex\`. No? Please, follow the instructions [here](Getting-the-source-code) first.
+### 3b. Building with QtCreator
 
-#### Configuring QtCreator
+#### I. Configuring QtCreator
 If you installed all [dependencies](#installing-dependencies) correctly,
 1. In QtCreator, open `Tools => Options...` in the toolbar
 2. Open the 'Kits' tab in the `Build&Run` panel.
@@ -107,7 +108,7 @@ If you installed all [dependencies](#installing-dependencies) correctly,
     3. Make sure the CMake generator is set to your version of Visual Studio (eg., `Visual Studio 15 2017 Win64`). Leave the fields `Platform` and `Toolset` blank.
 4. Click OK
 
-#### Configuring QtCreator for Evoplex
+#### II. Configuring QtCreator for Evoplex
 1. In the toolbar, click on `File => Open File or Project...`
 2. In the `C:\evoplex\evoplex\` directory, select the `CMakeLists.txt` file
 3. Open the `Projects` panel (it may open automatically when you first open the CMake file)
