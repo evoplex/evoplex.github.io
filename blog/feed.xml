@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Evoplex Blog</title>
+        <link>https://evoplex.org/blog</link>
+        <description>The best place to stay up-to-date with the latest Evoplex news and events.</description>
+        <lastBuildDate>Mon, 06 Aug 2018 06:00:00 GMT</lastBuildDate>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <generator>Feed for Node.js</generator>
+        <image>
+            <title>Evoplex Blog</title>
+            <url>https://evoplex.org/img/evoplex.svg</url>
+            <link>https://evoplex.org/blog</link>
+        </image>
+        <copyright>Copyright © 2018 Marcos Cardinot</copyright>
+        <item>
+            <title><![CDATA[Evoplex 0.1.0 Released]]></title>
+            <link>https://evoplex.org/blog/2018/08/06/evoplex-010-released.html</link>
+            <guid>https://evoplex.org/blog/2018/08/06/evoplex-010-released.html</guid>
+            <pubDate>Mon, 06 Aug 2018 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Today we are releasing the version 0.1.0 for Evoplex.</p>
+]]></description>
+        </item>
+    </channel>
+</rss>
