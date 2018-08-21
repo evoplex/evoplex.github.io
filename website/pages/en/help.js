@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2017i-2018, Facebook, Inc.
+ * Copyright (c) 2017-2018, Facebook, Inc.
  * Copyright (c) 2018-present, Evoplex
  *
  * This source code is licensed under the GPL license found in
