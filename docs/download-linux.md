@@ -11,8 +11,8 @@ title: Evoplex for Linux
 
 | Version             | Release Date  | Compiler  | Qt    |     |
 | ------------------- |:-------------:| ---------:| -----:| ---:|
-| [<img src="/img/download-black.svg" width="17" style="vertical-align: sub;"> Evoplex 0.1.0 - x86_64 DEB](https://github.com/evoplex/evoplex/releases/download/0.1.0/evoplex-0.1.0.x86_64.deb) | Aug 06, 2018    | gcc8 | 5.11.1| [Release Notes](/blog/2018/08/06/evoplex-0.1.0-released) |
-| [<img src="/img/download-black.svg" width="17" style="vertical-align: sub;"> Evoplex 0.1.0 - x86_64 RPM](https://github.com/evoplex/evoplex/releases/download/0.1.0/evoplex-0.1.0.x86_64.rpm) | Aug 06, 2018    | gcc8 | 5.11.1| [Release Notes](/blog/2018/08/06/evoplex-0.1.0-released) |
+| [<img src="/img/download-black.svg" width="17" style="vertical-align: sub;"> Evoplex 0.1.0 - x86_64 DEB](https://github.com/evoplex/evoplex/releases/download/0.1.0/evoplex-0.1.0.x86_64.deb) | Aug 06, 2018    | gcc8 | 5.11.1| [Release Notes](/blog/2018/08/06/evoplex-010-released) |
+| [<img src="/img/download-black.svg" width="17" style="vertical-align: sub;"> Evoplex 0.1.0 - x86_64 RPM](https://github.com/evoplex/evoplex/releases/download/0.1.0/evoplex-0.1.0.x86_64.rpm) | Aug 06, 2018    | gcc8 | 5.11.1| [Release Notes](/blog/2018/08/06/evoplex-010-released) |
 
 ### Past releases
 
@@ -41,19 +41,20 @@ Alternatively, you can download the source code from the [.zip archive](https://
 * CMake >= 3.1.0
 * Qt >= 5.8
 * QtCharts >= 5.8
+* QtSvg >= 5.8
 
 You can run the command below to install all of the necessary requirements.
 #### Ubuntu >= 17.10 (Artful) and Debian >= 10 (Buster)
 ``` bash
-sudo apt-get install build-essential cmake qt-default libqt5charts5-dev
+sudo apt-get install build-essential cmake qt-default libqt5charts5-dev libqt5svg5-dev
 ```
 #### Fedora >= 26
 ``` bash
-sudo dnf install cmake qt5-qtbase-devel qt5-qtcharts
+sudo dnf install cmake qt5-qtbase-devel qt5-qtcharts-devel qt5-qtsvg-devel
 ```
 #### openSUSE
 ``` bash
-sudo zypper install cmake libqt5-qtbase libQt5Charts5
+sudo zypper install cmake libqt5-qtbase libQt5Charts5 libQt5Svg5
 ```
 #### Others
 For any other distribution, you can download and install the latest open source version of Qt from [installer](https://www.qt.io/download).

@@ -19,7 +19,7 @@ The installer should work fine on Windows 7, 8 and 10
 
 | Version             | Release Date  | Compiler  | Qt    |     |
 | ------------------- |:-------------:| ---------:| -----:| ---:|
-| [<img src="/img/download-black.svg" width="17" style="vertical-align: sub;"> Evoplex 0.1.0 - Windows 64-bit](https://github.com/evoplex/evoplex/releases/download/0.1.0/evoplex_0.1.0.win64.exe) | Aug 06, 2018    | MSVC2017 | 5.11.1| [Release Notes](/blog/2018/08/06/evoplex-0.1.0-released) |
+| [<img src="/img/download-black.svg" width="17" style="vertical-align: sub;"> Evoplex 0.1.0 - Windows 64-bit](https://github.com/evoplex/evoplex/releases/download/0.1.0/evoplex_0.1.0.win64.exe) | Aug 06, 2018    | MSVC2017 | 5.11.1| [Release Notes](/blog/2018/08/06/evoplex-010-released) |
 
 
 
