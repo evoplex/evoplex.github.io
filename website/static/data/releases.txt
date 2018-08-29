@@ -1,7 +1,11 @@
 {
   "2018-08-07":
   {
+    "date": "2018-08-07",
     "version": "0.1.0",
+    "major": 0,
+    "minor": 1,
+    "patch": 0,
     "release": "stable",
     "url": "https://evoplex.org/blog/2018/08/06/evoplex-010-released"
   }
