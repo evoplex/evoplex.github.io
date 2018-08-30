@@ -57,8 +57,8 @@
 <tr><th>Version</th><th style="text-align:center">Release Date</th><th style="text-align:right">Compiler</th><th style="text-align:right">Qt</th><th style="text-align:right"></th></tr>
 </thead>
 <tbody>
-<tr><td><a href="https://github.com/evoplex/evoplex/releases/download/0.1.0/evoplex-0.1.0.x86_64.deb"><img src="/img/download-black.svg" width="17" style="vertical-align: sub;"> Evoplex 0.1.0 - x86_64 DEB</a></td><td style="text-align:center">Aug 06, 2018</td><td style="text-align:right">gcc8</td><td style="text-align:right">5.11.1</td><td style="text-align:right"><a href="/blog/2018/08/06/evoplex-0.1.0-released">Release Notes</a></td></tr>
-<tr><td><a href="https://github.com/evoplex/evoplex/releases/download/0.1.0/evoplex-0.1.0.x86_64.rpm"><img src="/img/download-black.svg" width="17" style="vertical-align: sub;"> Evoplex 0.1.0 - x86_64 RPM</a></td><td style="text-align:center">Aug 06, 2018</td><td style="text-align:right">gcc8</td><td style="text-align:right">5.11.1</td><td style="text-align:right"><a href="/blog/2018/08/06/evoplex-0.1.0-released">Release Notes</a></td></tr>
+<tr><td><a href="https://github.com/evoplex/evoplex/releases/download/0.1.0/evoplex-0.1.0.x86_64.deb"><img src="/img/download-black.svg" width="17" style="vertical-align: sub;"> Evoplex 0.1.0 - x86_64 DEB</a></td><td style="text-align:center">Aug 06, 2018</td><td style="text-align:right">gcc8</td><td style="text-align:right">5.11.1</td><td style="text-align:right"><a href="/blog/2018/08/06/evoplex-010-released">Release Notes</a></td></tr>
+<tr><td><a href="https://github.com/evoplex/evoplex/releases/download/0.1.0/evoplex-0.1.0.x86_64.rpm"><img src="/img/download-black.svg" width="17" style="vertical-align: sub;"> Evoplex 0.1.0 - x86_64 RPM</a></td><td style="text-align:center">Aug 06, 2018</td><td style="text-align:right">gcc8</td><td style="text-align:right">5.11.1</td><td style="text-align:right"><a href="/blog/2018/08/06/evoplex-010-released">Release Notes</a></td></tr>
 </tbody>
 </table>
 <h3><a class="anchor" aria-hidden="true" id="past-releases"></a><a href="#past-releases" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Past releases</h3>
@@ -84,16 +84,17 @@
 <li>CMake &gt;= 3.1.0</li>
 <li>Qt &gt;= 5.8</li>
 <li>QtCharts &gt;= 5.8</li>
+<li>QtSvg &gt;= 5.8</li>
 </ul>
 <p>You can run the command below to install all of the necessary requirements.</p>
 <h4><a class="anchor" aria-hidden="true" id="ubuntu-1710-artful-and-debian-10-buster"></a><a href="#ubuntu-1710-artful-and-debian-10-buster" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ubuntu &gt;= 17.10 (Artful) and Debian &gt;= 10 (Buster)</h4>
-<pre><code class="hljs css languages- bash">sudo apt-get install build-essential cmake qt-default libqt5charts5-dev
+<pre><code class="hljs css languages- bash">sudo apt-get install build-essential cmake qt-default libqt5charts5-dev libqt5svg5-dev
 </code></pre>
 <h4><a class="anchor" aria-hidden="true" id="fedora-26"></a><a href="#fedora-26" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Fedora &gt;= 26</h4>
-<pre><code class="hljs css languages- bash">sudo dnf install cmake qt5-qtbase-devel qt5-qtcharts
+<pre><code class="hljs css languages- bash">sudo dnf install cmake qt5-qtbase-devel qt5-qtcharts-devel qt5-qtsvg-devel
 </code></pre>
 <h4><a class="anchor" aria-hidden="true" id="opensuse"></a><a href="#opensuse" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>openSUSE</h4>
-<pre><code class="hljs css languages- bash">sudo zypper install cmake libqt5-qtbase libQt5Charts5
+<pre><code class="hljs css languages- bash">sudo zypper install cmake libqt5-qtbase libQt5Charts5 libQt5Svg5
 </code></pre>
 <h4><a class="anchor" aria-hidden="true" id="others"></a><a href="#others" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Others</h4>
 <p>For any other distribution, you can download and install the latest open source version of Qt from <a href="https://www.qt.io/download">installer</a>.</p>
