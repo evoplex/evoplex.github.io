@@ -42,12 +42,12 @@ Alternatively, you can download the source code from the [.zip archive](https://
 
 ### 2. Installing dependencies
 * CMake >= 3.1.0
-* Qt >= 5.8
-* QtCharts >= 5.8
+* Qt >= 5.8 (recommended: 5.9.5)
+* QtCharts >= 5.8 (recommended: 5.9.5)
 
-You can download and install the latest open source version of Qt from [installer](https://www.qt.io/download). The required packages are `macOS` and `Qt Charts`. Suppose you install it at `/Users/you/Qt/`, you should add Qt to your `PATH` variable as follows (assuming you installed Qt 5.11.1):
+You can download and install the recommended open source version of Qt from [installer](https://www.qt.io/download). The required packages are `macOS` and `Qt Charts`. Suppose you install it at `/Users/you/Qt/`, you should add Qt to your `PATH` variable as follows (assuming you installed Qt 5.9.5):
 ``` bash
-export PATH=/Users/you/Qt/5.11.1/clang_64/:/Users/you/Qt/5.11.1/clang_64/bin/:$PATH
+export PATH=/Users/you/Qt/5.9.5/clang_64/:/Users/you/Qt/5.9.5/clang_64/bin/:$PATH
 ```
 
 ### 3. Building Evoplex

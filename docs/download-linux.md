@@ -39,14 +39,14 @@ Alternatively, you can download the source code from the [.zip archive](https://
 
 ### 2. Installing dependencies
 * CMake >= 3.1.0
-* Qt >= 5.8
-* QtCharts >= 5.8
-* QtSvg >= 5.8
+* Qt >= 5.8 (recommended: 5.9.5)
+* QtCharts >= 5.8 (recommended: 5.9.5)
+* QtSvg >= 5.8 (recommended: 5.9.5)
 
 You can run the command below to install all of the necessary requirements.
 #### Ubuntu >= 17.10 (Artful) and Debian >= 10 (Buster)
 ``` bash
-sudo apt-get install build-essential cmake qt-default libqt5charts5-dev libqt5svg5-dev
+sudo apt-get install build-essential cmake qt5-default libqt5charts5-dev libqt5svg5-dev
 ```
 #### Fedora >= 26
 ``` bash
@@ -57,12 +57,12 @@ sudo dnf install cmake qt5-qtbase-devel qt5-qtcharts-devel qt5-qtsvg-devel
 sudo zypper install cmake libqt5-qtbase libQt5Charts5 libQt5Svg5
 ```
 #### Others
-For any other distribution, you can download and install the latest open source version of Qt from [installer](https://www.qt.io/download).
+For any other distribution, you can download and install the recommended open source version of Qt from [installer](https://www.qt.io/download).
 * The required packages are `Desktop gcc` and `Qt Charts`.
 * It's recommended that you install it at `/opt/Qt/`.
-* You should add Qt to your `PATH` variable as follows (assuming you installed Qt 5.11.1):
+* You should add Qt to your `PATH` variable as follows (assuming you installed Qt 5.9.5):
 ``` bash
-export PATH=/opt/Qt/5.11.1/gcc_64/bin:$PATH
+export PATH=/opt/Qt/5.9.5/gcc_64/bin:$PATH
 ```
 
 ### 3. Building Evoplex

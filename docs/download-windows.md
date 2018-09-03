@@ -55,11 +55,11 @@ Alternatively, you can download the source code from the [.zip archive](https://
 * **Microsoft Visual Studio Community 2017:**
     * [Download](https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15) and install the `Desktop development with C++` component.
 
-* **Qt >= 5.8:**
-    * [Download](https://www.qt.io/download) and install the latest open source versions of `Qt` (eg, Qt 5.11 MSVC2017) and `QtCharts`. It's recommended that you install it at `C:\Qt\`.
-    * You should add Qt to your `PATH` variable as follows (assuming you installed *Qt 5.11.1*):
-        * *If you installed Qt for 32-bit:* `C:\Qt\Qt5.11.1\msvc2017_64;C:\Qt\Qt5.11.1\msvc2017_64\bin;C:\Qt\Qt5.11.1\msvc2017_64\lib;C:\Qt\Qt5.11.1\msvc2017_64\include`
-        * *If you installed Qt for 32-bit:* `C:\Qt\Qt5.11.1\msvc2017;C:\Qt\Qt5.11.1\msvc2017\bin;C:\Qt\Qt5.11.1\msvc2017\lib;C:\Qt\Qt5.11.1\msvc2017\include`
+* **Qt >= 5.8 (recommended: 5.9.5):**
+    * [Download](https://www.qt.io/download) and install the recommended open source versions of `Qt` (eg, Qt 5.9.5 MSVC2017) and `QtCharts`. It's recommended that you install it at `C:\Qt\`.
+    * You should add Qt to your `PATH` variable as follows (assuming you installed *Qt 5.9.5*):
+        * *If you installed Qt for 32-bit:* `C:\Qt\Qt5.9.5\msvc2017_64;C:\Qt\Qt5.9.5\msvc2017_64\bin;C:\Qt\Qt5.9.5\msvc2017_64\lib;C:\Qt\Qt5.9.5\msvc2017_64\include`
+        * *If you installed Qt for 32-bit:* `C:\Qt\Qt5.9.5\msvc2017;C:\Qt\Qt5.9.5\msvc2017\bin;C:\Qt\Qt5.9.5\msvc2017\lib;C:\Qt\Qt5.9.5\msvc2017\include`
 
         * How to set the `PATH` on Windows 10 and 8:
             1. Search for `Edit Environment Variables`, click <a href="/img/windows-envvar.png" target="_blank">Environment Variables</a>.
@@ -100,7 +100,7 @@ Now, to run Evoplex:
 If you installed all [dependencies](#installing-dependencies) correctly,
 1. In QtCreator, open `Tools => Options...` in the toolbar
 2. Open the 'Kits' tab in the `Build&Run` panel.
-3. Click on the auto-detected kit (eg., *Desktop Qt 5.11.1 MSVC2017 64bit*)
+3. Click on the auto-detected kit (eg., *Desktop Qt 5.9.5 MSVC2017 64bit*)
     1. Make sure the compiler (C and C++) is set correctly. For example:
         * C ``Microsoft Visual C++ Compiler 15.0 (amd64)``
         * C++ ``Microsoft Visual C++ Compiler 15.0 (amd64)``
