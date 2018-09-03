@@ -9,7 +9,7 @@ sidebar_label: Introduction
 Evoplex is a platform for implementing Agent-Based Models (ABM) and Multi-Agent Systems (MAS) imposing a [theoretical-graph approach](https://en.wikipedia.org/wiki/Graph_theory). Here, each agent is represented as a node in the network and is constrained to interact only with its neighbours, which are linked by edges in the network.
 
 <p align="center">
-  <img alt="Evoplex 0.0.1" src="https://evoplex.org/img/evoplex2018-06-17.gif" width="70%">
+  <img alt="Evoplex 0.0.1" src="https://evoplex.org/img/evoplex0.2.0_nowak92_2018-09-03.gif" width="70%">
 </p>
 
 **Wait, another Multi-Agent System platform?** Why not using something like [MASON](https://cs.gmu.edu/~eclab/projects/mason/) or [NetLogo](https://ccl.northwestern.edu/netlogo/)?
