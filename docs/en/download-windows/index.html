@@ -95,13 +95,13 @@
 <ul>
 <li><a href="https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&amp;rel=15">Download</a> and install the <code>Desktop development with C++</code> component.</li>
 </ul></li>
-<li><p><strong>Qt &gt;= 5.8:</strong></p>
+<li><p><strong>Qt &gt;= 5.8 (recommended: 5.9.5):</strong></p>
 <ul>
-<li><a href="https://www.qt.io/download">Download</a> and install the latest open source versions of <code>Qt</code> (eg, Qt 5.11 MSVC2017) and <code>QtCharts</code>. It's recommended that you install it at <code>C:\Qt\</code>.</li>
-<li>You should add Qt to your <code>PATH</code> variable as follows (assuming you installed <em>Qt 5.11.1</em>):
+<li><a href="https://www.qt.io/download">Download</a> and install the recommended open source versions of <code>Qt</code> (eg, Qt 5.9.5 MSVC2017) and <code>QtCharts</code>. It's recommended that you install it at <code>C:\Qt\</code>.</li>
+<li>You should add Qt to your <code>PATH</code> variable as follows (assuming you installed <em>Qt 5.9.5</em>):
 <ul>
-<li><p><em>If you installed Qt for 32-bit:</em> <code>C:\Qt\Qt5.11.1\msvc2017_64;C:\Qt\Qt5.11.1\msvc2017_64\bin;C:\Qt\Qt5.11.1\msvc2017_64\lib;C:\Qt\Qt5.11.1\msvc2017_64\include</code></p></li>
-<li><p><em>If you installed Qt for 32-bit:</em> <code>C:\Qt\Qt5.11.1\msvc2017;C:\Qt\Qt5.11.1\msvc2017\bin;C:\Qt\Qt5.11.1\msvc2017\lib;C:\Qt\Qt5.11.1\msvc2017\include</code></p></li>
+<li><p><em>If you installed Qt for 32-bit:</em> <code>C:\Qt\Qt5.9.5\msvc2017_64;C:\Qt\Qt5.9.5\msvc2017_64\bin;C:\Qt\Qt5.9.5\msvc2017_64\lib;C:\Qt\Qt5.9.5\msvc2017_64\include</code></p></li>
+<li><p><em>If you installed Qt for 32-bit:</em> <code>C:\Qt\Qt5.9.5\msvc2017;C:\Qt\Qt5.9.5\msvc2017\bin;C:\Qt\Qt5.9.5\msvc2017\lib;C:\Qt\Qt5.9.5\msvc2017\include</code></p></li>
 <li><p>How to set the <code>PATH</code> on Windows 10 and 8:</p>
 <ol>
 <li>Search for <code>Edit Environment Variables</code>, click <a href="/img/windows-envvar.png" target="_blank">Environment Variables</a>.</li>
@@ -139,7 +139,7 @@ cmake.exe --build . --config Release --target ALL_BUILD -- /maxcpucount:8
 <ol>
 <li>In QtCreator, open <code>Tools =&gt; Options...</code> in the toolbar</li>
 <li>Open the 'Kits' tab in the <code>Build&amp;Run</code> panel.</li>
-<li>Click on the auto-detected kit (eg., <em>Desktop Qt 5.11.1 MSVC2017 64bit</em>)
+<li>Click on the auto-detected kit (eg., <em>Desktop Qt 5.9.5 MSVC2017 64bit</em>)
 <ol>
 <li>Make sure the compiler (C and C++) is set correctly. For example:
 <ul>
