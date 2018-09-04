@@ -17,7 +17,7 @@ chmod +x evoplex.AppImage
 
 | Version             | Release Date  | Compiler  | Qt    |     |
 | ------------------- |:-------------:| ---------:| -----:| ---:|
-| [<img src="/img/download-black.svg" width="17" style="vertical-align: sub;"> Evoplex 0.2.0 - x86_64 AppImage](https://github.com/evoplex/evoplex/releases/download/v0.2.0/evoplex-0.2.0.x86_64.AppImage) | Sep 04, 2018    | gcc8 | 5.9.5| [Release Notes](/blog/2018/09/04/evoplex-020-released) |
+| [<img src="/img/download-black.svg" width="17" style="vertical-align: sub;"> Evoplex 0.2.0 - x86_64 AppImage](https://github.com/evoplex/evoplex/releases/download/v0.2.0/evoplex-0.2.0.x86_64.AppImage) | Sep 04, 2018    | gcc4.8 | 5.9.5| [Release Notes](/blog/2018/09/04/evoplex-020-released) |
 
 ### Past releases
 
@@ -50,7 +50,7 @@ Alternatively, you can download the source code from the [.zip archive](https://
 You can run the command below to install all of the necessary requirements.
 #### Ubuntu >= 17.10 (Artful) and Debian >= 10 (Buster)
 ``` bash
-sudo apt-get install build-essential cmake qt5-default libqt5charts5-dev libqt5svg5-dev
+sudo apt-get install build-essential libgl1-mesa-dev cmake qt5-default libqt5charts5-dev libqt5svg5-dev
 ```
 #### Fedora >= 26
 ``` bash
