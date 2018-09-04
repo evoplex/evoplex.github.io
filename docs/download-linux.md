@@ -3,7 +3,13 @@ id: download-linux
 title: Evoplex for Linux
 ---
 
-## DEB and RPM Packages <img src="/img/linux-logo.png" width="25" style="vertical-align: sub;">
+## AppImage ("universal" Linux package) <img src="/img/linux-logo.png" width="25" style="vertical-align: sub;">
+
+We provide an AppImage that runs on most Linux systems. No istallation is needed, just download, make it executable and run it.
+``` bash
+chmod +x evoplex.AppImage
+./evoplex.AppImage
+```
 
 > Need help? [click here](/help)
 
@@ -11,16 +17,14 @@ title: Evoplex for Linux
 
 | Version             | Release Date  | Compiler  | Qt    |     |
 | ------------------- |:-------------:| ---------:| -----:| ---:|
-| [<img src="/img/download-black.svg" width="17" style="vertical-align: sub;"> Evoplex 0.1.0 - x86_64 DEB](https://github.com/evoplex/evoplex/releases/download/0.1.0/evoplex-0.1.0.x86_64.deb) | Aug 06, 2018    | gcc8 | 5.11.1| [Release Notes](/blog/2018/08/06/evoplex-010-released) |
-| [<img src="/img/download-black.svg" width="17" style="vertical-align: sub;"> Evoplex 0.1.0 - x86_64 RPM](https://github.com/evoplex/evoplex/releases/download/0.1.0/evoplex-0.1.0.x86_64.rpm) | Aug 06, 2018    | gcc8 | 5.11.1| [Release Notes](/blog/2018/08/06/evoplex-010-released) |
+| [<img src="/img/download-black.svg" width="17" style="vertical-align: sub;"> Evoplex 0.2.0 - x86_64 AppImage](https://github.com/evoplex/evoplex/releases/download/v0.2.0/evoplex-0.2.0.x86_64.AppImage) | Sep 04, 2018    | gcc8 | 5.9.5| [Release Notes](/blog/2018/09/04/evoplex-020-released) |
 
 ### Past releases
 
-| Version             | Release Date  | Compiler  | Qt    |
-| ------------------- |:-------------:| ---------:| -----:|
-| [<img src="/img/download-black.svg" width="17" style="vertical-align: sub;"> Evoplex 0.1.0-alpha - x86_64 DEB](https://github.com/evoplex/evoplex/releases/download/0.1.0-alpha0/evoplex-0.1.0-alpha0.x86_64.deb) | Jun 21, 2018 | gcc8 | 5.11.0|
-| [<img src="/img/download-black.svg" width="17" style="vertical-align: sub;"> Evoplex 0.1.0-alpha - x86_64 RPM](https://github.com/evoplex/evoplex/releases/download/0.1.0/evoplex-0.1.0.x86_64.rpm) | Jun 21, 2018 | gcc8 | 5.11.0|
-
+| Version             | Release Date  | Compiler  | Qt    |     |
+| ------------------- |:-------------:| ---------:| -----:| ---:|
+| [<img src="/img/download-black.svg" width="17" style="vertical-align: sub;"> Evoplex 0.1.0 - x86_64 DEB](https://github.com/evoplex/evoplex/releases/download/v0.1.0/evoplex-0.1.0.x86_64.deb) | Aug 06, 2018    | gcc8 | 5.11.1| [Release Notes](/blog/2018/08/06/evoplex-010-released) |
+| [<img src="/img/download-black.svg" width="17" style="vertical-align: sub;"> Evoplex 0.1.0 - x86_64 RPM](https://github.com/evoplex/evoplex/releases/download/v0.1.0/evoplex-0.1.0.x86_64.rpm) | Aug 06, 2018    | gcc8 | 5.11.1| [Release Notes](/blog/2018/08/06/evoplex-010-released) |
 
 
 
