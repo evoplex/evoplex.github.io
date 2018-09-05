@@ -5,6 +5,14 @@ title: Evoplex for Windows
 
 ## Evoplex Installer for Windows (binaries) <img src="/img/windows-logo.png" width="25" style="vertical-align: sub;">
 
+### Latest stable release
+
+| Version             | Release Date  | Compiler  | Qt    |     |
+| ------------------- |:-------------:| ---------:| -----:| ---:|
+| [<img src="/img/download-black.svg" width="17" style="vertical-align: sub;"> Evoplex 0.2.0 - Windows 64-bit](https://github.com/evoplex/evoplex/releases/download/v0.2.0/evoplex_0.2.0.win64.exe) | Sep 04, 2018    | MSVC2017 | 5.9.5| [Release Notes](/blog/2018/09/04/evoplex-020-released) |
+
+### How to install
+
 The installation on Windows is very straightforward:
 
 1. Download the Evoplex installer for Windows ([links below](#latest-stable-release)).
@@ -14,13 +22,6 @@ The installation on Windows is very straightforward:
 The installer should work fine on Windows 7, 8 and 10
 
 > Need help? [click here](/help)
-
-### Latest stable release
-
-| Version             | Release Date  | Compiler  | Qt    |     |
-| ------------------- |:-------------:| ---------:| -----:| ---:|
-| [<img src="/img/download-black.svg" width="17" style="vertical-align: sub;"> Evoplex 0.2.0 - Windows 64-bit](https://github.com/evoplex/evoplex/releases/download/v0.2.0/evoplex_0.2.0.win64.exe) | Sep 04, 2018    | MSVC2017 | 5.9.5| [Release Notes](/blog/2018/09/04/evoplex-020-released) |
-
 
 ### Past releases
 
