@@ -1,0 +1,9 @@
+[
+  {
+    "title": "Minimal Graph",
+    "authors": "Evoplex Team",
+    "license": "mit",
+    "url": "https://github.com/evoplex/minimal-graph",
+    "description": "This is a minimum example of a graph plugin for Evoplex. It has the essential files for you to create a new graph plugin."
+  }
+]

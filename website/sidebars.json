@@ -1,6 +1,7 @@
 {
   "docs": {
-    "Download & Install": ["download-linux","download-mac","download-windows"],
-    "Getting Started": ["intro", "user-interface"]
+    "Getting Started": ["intro", "download-linux", "download-mac", "download-windows", "user-interface"],
+    "Building Evoplex": ["getting-source-code", "installing-dependencies", "compiling-evoplex"],
+    "Plugins": ["compiling-plugins", "running-plugins", "creating-plugins", "example-plugins"]
   }
 }

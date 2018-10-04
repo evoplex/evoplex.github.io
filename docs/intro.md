@@ -1,6 +1,6 @@
 ---
 id: intro
-title: Getting Started
+title: Welcome to Evoplex
 sidebar_label: Introduction
 ---
 

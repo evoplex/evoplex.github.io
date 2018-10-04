@@ -1,4 +1,14 @@
 {
+  "2018-09-04":
+  {
+    "date": "2018-09-04",
+    "version": "0.2.0",
+    "major": 0,
+    "minor": 2,
+    "patch": 0,
+    "release": "stable",
+    "url": "https://evoplex.org/blog/2018/09/04/evoplex-020-released"
+  },
   "2018-08-07":
   {
     "date": "2018-08-07",

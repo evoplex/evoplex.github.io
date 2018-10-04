@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Minimal Model",
+    "authors": "Evoplex Team",
+    "license": "mit",
+    "url": "https://github.com/evoplex/minimal-model",
+    "description": "This is a minimum example of a model plugin for Evoplex. It has the essential files for you to create a new model plugin."
+  },
+  {
+    "title": "Prisoner's dilemma game",
+    "authors": "Evoplex Team",
+    "license": "mit",
+    "url": "https://github.com/evoplex/model-prisonersDilemma",
+    "description": "It implements the experiment proposed by Nowak, M. A., & May, R. M. (1992). Evolutionary games and spatial chaos. Nature, 359(6398), 826. DOI: http://dx.doi.org/10.1038/359826a0"
+  },
+  {
+    "title": "Cellular Automata 1D",
+    "authors": "Evoplex Team",
+    "license": "mit",
+    "url": "https://github.com/evoplex/model-cellularAutomata1D",
+    "description": "This model implements a few elementary cellular automaton rules."
+  },
+  {
+    "title": "Population Growth",
+    "authors": "Evoplex Team",
+    "license": "mit",
+    "url": "https://github.com/evoplex/model-populationGrowth",
+    "description": "It implements a simple model to simulate the spread of infection across a population."
+  },
+  {
+    "title": "Conway's Game of Life",
+    "authors": "Evoplex Team",
+    "license": "mit",
+    "url": "https://github.com/evoplex/model-gameOfLife",
+    "description": "It implements Conway's Game of Life cellular automaton."
+  }
+]
