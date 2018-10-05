@@ -62,6 +62,9 @@ const siteConfig = {
     '/js/code-blocks-buttons.js',
   ],
 
+  // do not include the css files from those dirs in the main.css
+  separateCss: [ 'static/api' ],
+
   /* On page navigation for the current documentation page */
   onPageNav: 'separate',
 
