@@ -149,5 +149,7 @@ If you renamed the `class` name in the [header file](#the-pluginh-file), make su
 
 ### The base classes
 
-The model plugins are based on the [`AbstractModel` class](), while the graph plugins are based on the [`AbstractGraph` class](). Please, refer to their documentation to know which functions are available in your `plugin.cpp` file.
+<img src="/api/0.2.1/classevoplex_1_1AbstractPlugin.png" />
+
+The model plugins are based on the `AbstractModel` class, while the graph plugins are based on the `AbstractGraph` class. Please, refer to the <a href="/api/0.2.1/modules.html" target="_blank">API documentation</a> to know which functions are available in your `plugin.cpp` file.
 
