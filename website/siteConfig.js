@@ -9,7 +9,7 @@ const siteConfig = {
 
   headerLinks: [
     {page: 'index#download', label: 'Download'},
-    {doc: 'intro', label: 'Docs'},
+    {doc: 'index', label: 'Docs'},
     {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},
     {languages: true},

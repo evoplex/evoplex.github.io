@@ -3,31 +3,53 @@ id: user-interface
 title: User Interface
 ---
 
-## Welcome View
+## Welcome Page
 When you open Evoplex, you will be greeted by the welcome view. Your recent projects will be listed here.
-<p align="center"><img alt="Evoplex 0.0.1" src="https://i.imgur.com/JDeo1A2.png" width="70%"></p>
+<p align="center"><img src="/img/screenshots/021/welcome.jpg" width="60%"></p>
 
-## Project View
-The experiment view allows you to add and edit experiments in your project.
-<p align="center"><img src="https://imgur.com/CAvllPp.png" width="70%"></p>
+## Project Page
+When you create or open a project, you will be redirected to the *Project Page*, which can hold three types of widgets: [Project View](#project-view), [Experiment Designer](#experiment-designer) and [Experiment View](#experiment-view). This page allows you to open several widgets at the same time. Notice that all widgets can be detached from the main window by clicking on the "^" button on the top of the widgets.
 
-Use the experiment designer to outline and plan your experiment, then click "Create" to add it to your project. The experiment will get added to your project as shown below.
-<p align="center"><img src="https://imgur.com/zsOJ6o1.png" width="70%"></p>
+### Experiment Designer
+This tool allows you to add, edit and remove experiments in your project. By default, this tool appears beside the [Project View](#project-view) and the [Experiment View](#experiment-view), but you are allowed to detach from the main window and/or drag and drop to another position.
+<p align="center"><img src="/img/screenshots/021/experimentDesigner.png" width="35%"></p>
 
-To edit an experiment, click it in the list to select it. This will bring up your settings for that particular experiment in the experiment designer. When you are finished editing, click "Edit" to save the settings.
-<p align="center"><img src="https://imgur.com/aqxtED6.png" width="70%"></p>
+### Project View
+This view has a table to list all the experiments within the project. The experiments can be executed and paused directly from the table as shown below. Notice that you are allowed to open more than one project in parallel (see tabs in the bottom).
+<p align="center"><img src="/img/screenshots/021/projectView.jpg" width="60%"></p>
 
-### Graphs
-The experiments can be visualized using the graph feature. Double clicking on any experiment will open a graph window for it. You can navigate through the different project view windows using the tabs at the bottom of the screen.
-<p align="center"><img src="https://imgur.com/ilVKYd2.png" width="70%"></p>
+When a project is unsaved, there will be an asterisk beside its name on the tab. To save a project, go to `File=>Save`.
 
-There are 2 types of view - grid and graph. You can click on a node to view its attributes.
-<p align="center"><img src="https://imgur.com/hllJBsb.png" width="70%"></p>
-<p align="center"><img src="https://imgur.com/rDGXsoQ.png" width="70%"></p>
+### Experiment View
+This view is accessed when the user double-clicks on an experiment in the table. It allows executing/pausing/resetting the experiment, and opening the [visualization tools](#visualization-tools).
+<p align="center"><img src="/img/screenshots/021/experimentView.jpg" width="60%"></p>
 
-### Saving
-When a project is unsaved, there will be an asterisk beside its name on the tab. To save a project, go to File > Save.
+#### Visualization Tools
+The [Experiment View](#experiment-view) allows you to open multiple visualization tools at the same time for the same experiment.
 
-### Trials
-With Evoplex, it is possible to run a number of trials on the same experiment, using different PRG (pseudo-random generator) seeds. Use the "trials" field in the experiment designer to set the number of trials, then use the drop-down menu to switch between trials when viewing the graphs.
-<p align="center"><img src="https://imgur.com/uepPUdN.png" width="70%"></p>
+There are two types of view:
+
+- **Graph View:** which allows visualizing the nodes and edges in the graph.
+<p align="center"><img src="/img/screenshots/021/graphView.jpg" width="70%"></p>
+
+- **Grid View:** which shows only the nodes as cells in a grid.
+<p align="center"><img src="/img/screenshots/021/gridView.jpg" width="50%"></p>
+
+##### Attributes Inspector
+Notice that, in both views, you can click on a node to open the **Attributes Inspector**, which is a tool to allow reading and editing the node's attributes.
+
+##### Trials
+Evoplex allows an experiment to run for a number of trials, i.e., repeat the same experiment for a number of times using different pseudo-random generator seeds. It is done by setting the "trials" field in the [Experiment Designer](#experiment-designer) tool.
+
+The visualization tools have a drop-down menu to allow selecting which trial should be displayed.
+
+##### Graph/Grid Settings
+The graph/grid views are customizable, i.e., you can choose which attribute to plot, and which colormap to use. Also, it is possible to set the size of the nodes and edges.
+<p align="center"><img src="/img/screenshots/021/graphSettings.jpg" width="40%"></p>
+
+## Plugins Page
+The plugins page allows loading and unloading Evoplex plugins. The loaded plugins are listed in the table as shown below.
+<p align="center"><img src="/img/screenshots/021/plugins.jpg" width="60%"></p>
+
+## Settings Page
+<p align="center"><img src="/img/screenshots/021/settings.jpg" width="60%"></p>

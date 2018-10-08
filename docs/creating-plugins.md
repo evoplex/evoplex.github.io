@@ -133,7 +133,7 @@ For instance, if your plugin needs to request an integer from 0 to 10 (assigned 
 ```json
 { "pluginAttributesScope": [ {"variableA": "int[0,10]"} ] }
 ```
-Then, as shown in <a href="/img/experiment_designer_0.2.0.png" target="_blank">this screenshot</a>, after compiling and loading the plugin in *Evoplex*, the `variableA` will be displayed in the *Experiment Designer* tool.
+Then, as shown in <a href="/img/screenshots/021/experimentDesigner.png" target="_blank">this screenshot</a>, after compiling and loading the plugin in *Evoplex*, the `variableA` will be displayed in the *Experiment Designer* tool.
 
 
 ## The `plugin.h` file

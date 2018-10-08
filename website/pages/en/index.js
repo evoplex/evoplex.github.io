@@ -122,7 +122,7 @@ class Index extends React.Component {
             <h2><translate>
               Evoplex is a fast, robust and extensible platform to implement
               either Agent&#8209;Based Models (ABM) or Multi-Agent Systems (MAS)
-              imposing a theoretical-graph approach.
+              imposing a graph-theoretical approach.
             </translate></h2>
             <div className="row">
               <a className="btn primary" href="#download">

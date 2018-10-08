@@ -1,12 +1,12 @@
 ---
-id: intro
+id: index
 title: Welcome to Evoplex
 sidebar_label: Introduction
 ---
 
 ## Introduction
 
-Evoplex is a platform for implementing Agent-Based Models (ABM) and Multi-Agent Systems (MAS) imposing a [theoretical-graph approach](https://en.wikipedia.org/wiki/Graph_theory). Here, each agent is represented as a node in the network and is constrained to interact only with its neighbours, which are linked by edges in the network.
+Evoplex is a platform for implementing Agent-Based Models (ABM) and Multi-Agent Systems (MAS) imposing a [graph-theoretical approach](https://en.wikipedia.org/wiki/Graph_theory). Here, each agent is represented as a node in the network and is constrained to interact only with its neighbours, which are linked by edges in the network.
 
 <p align="center">
   <img alt="Evoplex 0.0.1" src="https://evoplex.org/img/evoplex0.2.0_nowak92_2018-09-03.gif" width="70%">

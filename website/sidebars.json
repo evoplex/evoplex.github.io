@@ -1,6 +1,6 @@
 {
   "docs": {
-    "Getting Started": ["intro", "download-linux", "download-mac", "download-windows", "user-interface"],
+    "Getting Started": ["index", "download-linux", "download-mac", "download-windows", "user-interface"],
     "Building Evoplex": ["getting-source-code", "installing-dependencies", "compiling-evoplex"],
     "Plugins": ["compiling-plugins", "running-plugins", "creating-plugins", "example-plugins"]
   }

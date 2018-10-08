@@ -4,7 +4,7 @@ title: Evoplex from Source Code
 sidebar_label: Getting the source code
 ---
 
-If you want to debug an issue or want to understand how Evoplex works, you'll want to get the source code, build and run it. However, if you just want to use Evoplex, you should install it directly from the [binary packages](intro#downloads).
+If you want to debug an issue or want to understand how Evoplex works, you'll want to get the source code, build and run it. However, if you just want to use Evoplex, you should install it directly from the [binary packages](index#downloads).
 
 The main steps to compile Evoplex are as follows:
 1. [Get the source code](#1-getting-the-source-code)
