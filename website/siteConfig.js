@@ -1,6 +1,6 @@
 const siteConfig = {
   title: 'Evoplex',
-  tagline: 'a poweful multi-agent system',
+  tagline: 'agent-based modeling on networks',
   url: 'https://evoplex.org',
   baseUrl: '/',
 
