@@ -29,4 +29,4 @@ Assuming you have [Git](https://git-scm.com/downloads) installed on your compute
 ### From .zip archive
 Alternatively, you can download the source code from the `.zip` archive.
 * Under development: [Master branch](https://github.com/evoplex/evoplex/archive/master.zip)
-* Latest stable release: [Evoplex 0.2.0](https://github.com/evoplex/evoplex/archive/v0.2.0.zip)
+* Latest stable release: [Evoplex 0.2.1](https://github.com/evoplex/evoplex/archive/v0.2.1.zip)
