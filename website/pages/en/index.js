@@ -120,9 +120,8 @@ class Index extends React.Component {
             <h1><translate>agent-based modeling,
             the right way!</translate></h1>
             <h2><translate>
-              Evoplex is a fast, robust and extensible platform to implement
-              either Agent&#8209;Based Models (ABM) or Multi-Agent Systems (MAS)
-              imposing a graph-theoretical approach.
+              Evoplex is a fast, robust and extensible platform for developing
+              agent&#8209;based models and multi&#8209;agent systems on networks.
             </translate></h2>
             <div className="row">
               <a className="btn primary" href="#download">
@@ -201,8 +200,8 @@ class Index extends React.Component {
             <h4><translate>Open Source</translate></h4>
             <h3><translate>Contributing to Evoplex</translate></h3>
             <p><translate>
-              Evoplex is a free and open-source software licensed under the
-              GPLv3 terms. We encourage you to join the community and help
+              Evoplex is a free and open-source software.
+              We encourage you to join the community and help
               us to improve Evoplex. There are many ways that you can contribute,
               beyond writing code.
             </translate></p>
