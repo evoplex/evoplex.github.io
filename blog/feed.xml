@@ -4,7 +4,7 @@
         <title>Evoplex Blog</title>
         <link>https://evoplex.org/blog</link>
         <description>The best place to stay up-to-date with the latest Evoplex news and events.</description>
-        <lastBuildDate>Tue, 04 Sep 2018 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 23 Oct 2018 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,6 +13,14 @@
             <link>https://evoplex.org/blog</link>
         </image>
         <copyright>Copyright © 2018 Marcos Cardinot</copyright>
+        <item>
+            <title><![CDATA[Evoplex 0.2.1 Released]]></title>
+            <link>https://evoplex.org/blog/2018/10/23/evoplex-021-released.html</link>
+            <guid>https://evoplex.org/blog/2018/10/23/evoplex-021-released.html</guid>
+            <pubDate>Tue, 23 Oct 2018 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>New patch release!</p>
+]]></description>
+        </item>
         <item>
             <title><![CDATA[Evoplex 0.2.0 Released]]></title>
             <link>https://evoplex.org/blog/2018/09/04/evoplex-020-released.html</link>
