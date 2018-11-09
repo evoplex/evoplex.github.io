@@ -130,7 +130,7 @@ class Index extends React.Component {
               />
                 download
               </a>
-              <a className="btn" href={docUrl('intro.html', language)}>
+              <a className="btn" href={docUrl('index.html', language)}>
                 <translate>get started</translate>
               </a>
             </div>
