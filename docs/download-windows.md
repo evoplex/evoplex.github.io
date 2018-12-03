@@ -15,7 +15,7 @@ title: Installing on Windows
 
 The installation on Windows is very straightforward:
 
-1. Download the Evoplex installer for Windows ([links below](#latest-stable-release)).
+1. Download the [Evoplex installer for Windows](#latest-stable-release).
 2. Once it is downloaded, run the installer.
 3. By default it will be installed at `C:\Program Files\evoplex` for a 64-bit machine.
 

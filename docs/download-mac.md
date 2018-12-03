@@ -16,7 +16,7 @@ title: Installing on macOS
 
 Evoplex is compatible with macOS 10.12+ and its installation is very straightforward:
 
-1. Download the DMG package ([links below](#latest-stable-release)).
+1. Download the [DMG package](#latest-stable-release).
 2. Once it is downloaded, open the file.
 3. If you agree with the license terms, a window similar to the one below will appear.
 4. Just drag and drop the Evoplex logo into the `Applications` folder.
@@ -31,5 +31,5 @@ Evoplex is compatible with macOS 10.12+ and its installation is very straightfor
 
 | Version             | Release Date  | Compiler  | Qt    |     |
 | ------------------- |:-------------:| ---------:| -----:| ---:|
-| [<img src="/img/download-black.svg" width="17" style="vertical-align: sub;"> Evoplex 0.2.0 - x86_64 DMG](https://github.com/evoplex/evoplex/releases/download/v0.2.0/evoplex-0.2.0.x86_64.dmg) | Sep 04, 2018    | AppleClang9.0 | 5.9.5| [Release Notes](/blog/2018/09/04/evoplex-020-released) |
-| [<img src="/img/download-black.svg" width="17" style="vertical-align: sub;"> Evoplex 0.1.0 - x86_64 DMG](https://github.com/evoplex/evoplex/releases/download/v0.1.0/evoplex-0.1.0.x86_64.dmg) | Aug 06, 2018    | AppleClang9.0 | 5.11.1| [Release Notes](/blog/2018/08/06/evoplex-010-released) |
+| [<img src="/img/download-black.svg" width="17" style="vertical-align: sub;"> Evoplex 0.2.0 - x86_64](https://github.com/evoplex/evoplex/releases/download/v0.2.0/evoplex-0.2.0.x86_64.dmg) | Sep 04, 2018    | AppleClang9.0 | 5.9.5| [Release Notes](/blog/2018/09/04/evoplex-020-released) |
+| [<img src="/img/download-black.svg" width="17" style="vertical-align: sub;"> Evoplex 0.1.0 - x86_64](https://github.com/evoplex/evoplex/releases/download/v0.1.0/evoplex-0.1.0.x86_64.dmg) | Aug 06, 2018    | AppleClang9.0 | 5.11.1| [Release Notes](/blog/2018/08/06/evoplex-010-released) |
