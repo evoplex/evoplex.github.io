@@ -21,11 +21,11 @@ The dependencies to compile Evoplex or an Evoplex Plugin are as follows:
     ``` bash
     sudo apt-get install build-essential libgl1-mesa-dev cmake
     ```
-  * Fedora
+  * **Fedora**
     ``` bash
     sudo dnf install gcc cmake
     ```
-  * openSUSE
+  * **openSUSE**
     ``` bash
     sudo zypper install gcc cmake
     ```
