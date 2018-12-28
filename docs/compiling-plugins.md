@@ -25,7 +25,7 @@ Note that you do not need to compile Evoplex from source to be able to compile a
 * Run `export EvoplexCore_DIR=~/evoplex/squashfs-root/usr/lib/cmake/Evoplex/`
 </details>
 
-<details><summary><b>1. I compiled and run Evoplex from the source code</b></summary>
+<details><summary><b>1. I compiled Evoplex from the source code</b></summary>
 * Assuming you compiled **Evoplex** at `~/evoplex/build`.
 * Run `export EvoplexCore_DIR=~/evoplex/build/src/core/EvoplexCore/`
 
@@ -82,7 +82,7 @@ Note that you do not need to compile Evoplex from source to be able to compile a
 * Run `export EvoplexCore_DIR=/Applications/evoplex.app/Contents/MacOS/lib/cmake/Evoplex`
 </details>
 
-<details><summary><b>1. I compiled and run Evoplex from the source code</b></summary>
+<details><summary><b>1. I compiled Evoplex from the source code</b></summary>
 * Assuming you compiled **Evoplex** at `~/evoplex/build`.
 * Run `export EvoplexCore_DIR=~/evoplex/build/evoplex.app/Contents/MacOS/lib/cmake/Evoplex`
 
@@ -133,7 +133,7 @@ If you installed [Git](https://gitforwindows.org/) and all [dependencies](instal
 * Run `export EvoplexCore_DIR=/c/Program\ Files/evoplex/lib/cmake/Evoplex`
 </details>
 
-<details><summary><b>2. I compiled and run Evoplex from the source code</b></summary>
+<details><summary><b>2. I compiled Evoplex from the source code</b></summary>
 * Assuming you compiled **Evoplex** at `/c/evoplex/build`.
 * Run `export EvoplexCore_DIR=/c/evoplex/build/releases/lib/cmake/Evoplex`
 
