@@ -7,7 +7,7 @@ This document will guide you through compiling an Evoplex plugin.
 
 ## Prerequisites
 
-Install all dependencies described [here](installing-dependencies).
+Install all dependencies described <a href="installing-dependencies" target="_blank">here</a>.
 
 Note that you do not need to compile Evoplex from source to be able to compile a plugin. However, if you did, you already have all dependencies and so, you **do not** have to install anything else.
 
