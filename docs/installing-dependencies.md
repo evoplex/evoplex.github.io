@@ -11,7 +11,7 @@ The dependencies to compile Evoplex or an Evoplex Plugin are as follows:
     * *base components:* QtCore, QtConcurrent, QtNetwork, QtWidgets, QtTest and QtSvg
     * *additional component:* QtCharts
 
-> Need help? [click here](/help)
+> Need help? <a href="/help" target="_blank">click here</a>
 
 ## Instructions for Linux <img src="/img/linux-logo.png" width="25" style="vertical-align: sub;">
 <details><summary>Show/Hide</summary>
@@ -50,7 +50,7 @@ The dependencies to compile Evoplex or an Evoplex Plugin are as follows:
   * Download the latest Xcode package from the Mac App Store for your system (it's free).
 
 * **Step 2 - Install CMake:**
-  * [Download](https://cmake.org/download) and install the latest version of CMake.
+  * <a href="https://cmake.org/download" target="_blank">Download</a> and install the latest version of CMake.
   * When installing, select the `Add CMake to the system PATH for all users` option.
 
 * **Step 3 - Install Qt Framework**
@@ -71,11 +71,11 @@ The dependencies to compile Evoplex or an Evoplex Plugin are as follows:
 
 * **Step 1 - Install Microsoft Visual Studio (MSVC):**
   * We recommend **MSVC 2017**, but MSVC >= 2013 should be fine.
-  * [Download](https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15) and install the `Desktop development with C++` component.
+  * <a href="https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15" target="_blank">Download</a> and install the `Desktop development with C++` component.
   * ⇒ Any MSVC version is fine, e.g., *Community*, *Professional* or *Enterprise*.
 
 * **Step 2 - Install CMake:**
-  * [Download](https://cmake.org/download) and install the latest version of CMake, eg., `cmake-3.11.3-win64-x64.msi`
+  * <a href="https://cmake.org/download" target="_blank">Download</a> and install the latest version of CMake, eg., `cmake-3.11.3-win64-x64.msi`
   * When installing, select the `Add CMake to the system PATH for all users` option.
 
 * **Step 3 - Install Qt Framework:**

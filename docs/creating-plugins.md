@@ -3,13 +3,13 @@ id: creating-plugins
 title: How to create a plugin
 ---
 
-Evoplex was created to hopefully make it simple for you to create a plugin, which can be either a **model** or a **graph** generator. As the plugins are written in C++, you'll need to [install a few dependencies](installing-dependencies) to be able to compile them.
+Evoplex was created to hopefully make it simple for you to create a plugin, which can be either a **model** or a **graph** generator. As the plugins are written in C++, you'll need to <a href="installing-dependencies" target="_blank">install a few dependencies</a> to be able to compile them.
 
-The easiest way to create your first plugin is to look at some of the examples that we provide [here](example-plugins). Thus:
-1. [Download (or clone via Git) one of them](example-plugins);
-2. [Install the dependencies](installing-dependencies);
-3. [Compile](compiling-plugins) from scracth to generate the dynamic library file (`.so` on Linux, `.dll` on Windows and `.dylib` on macOS);
-4. [Load and run](running-plugins) the plugin on Evoplex.
+The easiest way to create your first plugin is to look at some of the examples that we provide <a href="example-plugins" target="_blank">here</a>. Thus:
+1. <a href="example-plugins" target="_blank">Download (or clone via Git) one of them</a>;
+2. <a href="installing-dependencies" target="_blank">Install the dependencies</a>;
+3. <a href="compiling-plugins" target="_blank">Compile</a> from scracth to generate the dynamic library file (`.so` on Linux, `.dll` on Windows and `.dylib` on macOS);
+4. <a href="running-plugins" target="_blank">Load and run</a> the plugin on Evoplex.
 
 ## Download a template
 

@@ -125,7 +125,7 @@ Note that you do not need to compile Evoplex from source to be able to compile a
 ### Compiling the plugin from the command-line
 <details><summary>Show/Hide</summary>
 
-If you installed [Git](https://gitforwindows.org/) and all [dependencies](installing-dependencies) correctly, you should have Git Bash installed on your computer.
+If you installed <a href="https://gitforwindows.org" target="_blank">Git</a> and all <a href="installing-dependencies" target="_blank">dependencies</a> correctly, you should have Git Bash installed on your computer.
 1. Open Git Bash
 
 <details><summary><b>2. I installed Evoplex from a binary package (exe file)</b></summary>
@@ -157,7 +157,7 @@ If you installed [Git](https://gitforwindows.org/) and all [dependencies](instal
 <details><summary>Show/Hide</summary>
 
 #### I. Configuring QtCreator
-If you installed all [dependencies](installing-dependencies) correctly, and have not used QtCreator for Evoplex before:
+If you installed all <a href="installing-dependencies" target="_blank">dependencies</a> correctly, and have not used QtCreator for Evoplex before:
 1. In QtCreator, open `Tools => Options...` in the toolbar
 2. Open the 'Kits' tab in the `Build&Run` panel.
 3. Click on the auto-detected kit (eg., *Desktop Qt 5.9.5 MSVC2017 64bit*)
@@ -192,4 +192,4 @@ If you installed all [dependencies](installing-dependencies) correctly, and have
 
 
 
-> Need help? [click here](/help)
+> Need help? <a href="/help" target="_blank">click here</a>

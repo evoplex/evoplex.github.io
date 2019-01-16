@@ -4,13 +4,13 @@ title: Compiling Evoplex
 sidebar_label: Compiling Evoplex
 ---
 
-The instructions below assume that you have already downloaded the [source code](getting-source-code), and [installed all dependencies](installing-dependencies).
+The instructions below assume that you have already downloaded the <a href="getting-source-code" target="_blank">source code</a>, and <a href="installing-dependencies" target="_blank">installed all dependencies</a>.
 
 Evoplex uses CMake to allow easy and portable compilation. In this document, we explain how you can compile the source code from command-line or by using QtCreator, which is a free, open-source and cross-platform IDE suitable for projects using the Qt Framework.
 
-Note that if you installed the [dependencies](installing-dependencies) correctly, you should already have QtCreator installed on your computer.
+Note that if you installed the  <a href="installing-dependencies" target="_blank">dependencies</a> correctly, you should already have QtCreator installed on your computer.
 
-> Need help? [click here](/help)
+> Need help? <a href="/help" target="_blank">click here</a>
 
 ## Instructions for Linux and macOS <img src="/img/linux-logo.png" width="25" style="vertical-align: sub;"> <img src="/img/apple-logo.svg" width="25" style="vertical-align: sub;">
 <details><summary>Show/Hide</summary>
