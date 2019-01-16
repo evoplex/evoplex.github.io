@@ -7,12 +7,12 @@
               ga('create', 'UA-121617079-1', 'auto');
               ga('send', 'pageview');
             </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/js/code-blocks-buttons.js"></script><script src="https://unpkg.com/vanilla-back-to-top@7.1.14/dist/vanilla-back-to-top.min.js"></script><script>
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener("DOMContentLoaded", function(){
           addBackToTop(
             {"zIndex":100}
           )
         });
-        </script><link rel="stylesheet" href="/css/prism.css"/><link rel="stylesheet" href="/css/main.css"/></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/en"><img class="logo" src="/img/evoplex.svg" alt="Evoplex"/><h2 class="headerTitleWithLogo">Evoplex</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/index#download" target="_self">Download</a></li><li class=""><a href="/docs/en/" target="_self">Docs</a></li><li class=""><a href="/en/help" target="_self">Help</a></li><li class="siteNavGroupActive"><a href="/blog/" target="_self">Blog</a></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/img/language.svg" alt="Languages icon"/>English</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/pt-BR">Português (Brasil)</a></li><li><a href="https://crowdin.com/project/evoplex" target="_blank" rel="noreferrer noopener">Help Translate</a></li></ul></div></li><script>
+        </script><link rel="stylesheet" href="/css/prism.css"/><link rel="stylesheet" href="/css/main.css"/></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/en"><img class="logo" src="/img/evoplex.svg" alt="Evoplex"/><h2 class="headerTitleWithLogo">Evoplex</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/index#download" target="_self">Download</a></li><li class=""><a href="/docs/en" target="_self">Docs</a></li><li class=""><a href="/en/help" target="_self">Help</a></li><li class="siteNavGroupActive"><a href="/blog" target="_self">Blog</a></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/img/language.svg"/>English</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/pt-BR">Português (Brasil)</a></li><li><a href="https://crowdin.com/project/evoplex" target="_blank" rel="noreferrer noopener">Help Translate</a></li></ul></div></li><script>
         const languagesMenuItem = document.getElementById("languages-menu");
         const languagesDropDown = document.getElementById("languages-dropdown");
         languagesMenuItem.addEventListener("click", function(event) {
@@ -40,10 +40,6 @@
                 var toggler = document.querySelector(togglerSelector);
                 var target = document.querySelector(targetSelector);
 
-                if (!toggler) {
-                  return;
-                }
-
                 toggler.onclick = function(event) {
                   event.preventDefault();
 
@@ -51,7 +47,7 @@
                 };
               }
             });
-        </script></nav></div><div class="container mainContainer postContainer blogContainer"><div class="wrapper"><div class="lonePost"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle"><a href="/blog/2018/09/04/evoplex-020-released">Evoplex 0.2.0 Released</a></h1><p class="post-meta">September 4, 2018</p><div class="authorBlock"><p class="post-authorName"><a href="http://twitter.com/EvoplexOrg" target="_blank" rel="noreferrer noopener">Evoplex Team</a></p><div class="authorPhoto"><a href="http://twitter.com/EvoplexOrg" target="_blank" rel="noreferrer noopener"><img src="/logos/evoplex16.png" alt="Evoplex Team"/></a></div></div></header><div><span><p>Today we are releasing the version 0.2.0 for Evoplex.</p>
+        </script></nav></div><div class="container mainContainer postContainer blogContainer"><div class="wrapper"><div class="lonePost"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle"><a href="/blog/2018/09/04/evoplex-020-released">Evoplex 0.2.0 Released</a></h1><p class="post-meta">September 4, 2018</p><div class="authorBlock"><p class="post-authorName"><a href="http://twitter.com/EvoplexOrg" target="_blank" rel="noreferrer noopener">Evoplex Team</a></p><div class="authorPhoto"><a href="http://twitter.com/EvoplexOrg" target="_blank" rel="noreferrer noopener"><img src="/logos/evoplex16.png"/></a></div></div></header><div><span><p>Today we are releasing the version 0.2.0 for Evoplex.</p>
 <!--truncate-->
 <p>Download it <a href="https://evoplex.org/#download">here</a>!</p>
 <p>This release brings an improved GUI, bug fixes, 7 new plugins and several new features. The main changes for this version can be found below.</p>
@@ -114,18 +110,7 @@
 <ul>
 <li>PRG: replaced all <code>rand()</code> functions by <code>uniform()</code> and <code>bernoulli()</code></li>
 </ul>
-</span></div></div><div class="blogSocialSection"><div class="blogSocialSectionItem"><a href="https://twitter.com/share" class="twitter-share-button" data-text="Evoplex 0.2.0 Released" data-url="https://evoplex.org/blog/2018/09/04/evoplex-020-released" data-related="true" data-show-count="false">Tweet</a></div></div></div><div class="blog-recent"><a class="button" href="/blog">Recent Posts</a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#changelog">Changelog</a><ul class="toc-headings"><li><a href="#added">Added</a></li><li><a href="#changed">Changed</a></li><li><a href="#fixed">Fixed</a></li><li><a href="#removed">Removed</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/evoplex.svg" alt="Evoplex" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/en/intro.html">Getting Started</a></div><div><h5>Community</h5><a href="https://groups.google.com/group/evoplex" target="_blank" rel="noreferrer noopener">Mailing list</a><a href="https://gitter.im/EvoplexOrg">Project Chat</a><a href="https://twitter.com/EvoplexOrg" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/blog">Blog</a><a href="https://github.com/evoplex">GitHub</a><a class="github-button" href="https://github.com/evoplex/evoplex" data-icon="octicon-star" data-count-href="https://github.com/evoplex/evoplex" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Copyright © 2018 Marcos Cardinot</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>window.twttr=(function(d,s, id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return t;js=d.createElement(s);js.id=id;js.src='https://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js, fjs);t._e = [];t.ready = function(f) {t._e.push(f);};return t;}(document, 'script', 'twitter-wjs'));</script><script>
-                document.addEventListener('keyup', function(e) {
-                  if (e.target !== document.body) {
-                    return;
-                  }
-                  // keyCode for '/' (slash)
-                  if (e.keyCode === 191) {
-                    const search = document.getElementById('search_input_react');
-                    search && search.focus();
-                  }
-                });
-              </script><script>
+</span></div></div><div class="blogSocialSection"><div class="blogSocialSectionItem"><a href="https://twitter.com/share" class="twitter-share-button" data-text="Evoplex 0.2.0 Released" data-url="https://evoplex.org/blog/2018/09/04/evoplex-020-released" data-related="true" data-show-count="false"></a></div></div></div><div class="blog-recent"><a class="button" href="/blog">Recent Posts</a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#changelog">Changelog</a><ul class="toc-headings"><li><a href="#added">Added</a></li><li><a href="#changed">Changed</a></li><li><a href="#fixed">Fixed</a></li><li><a href="#removed">Removed</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/evoplex.svg" alt="Evoplex" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/en/intro.html">Getting Started</a></div><div><h5>Community</h5><a href="https://groups.google.com/group/evoplex" target="_blank" rel="noreferrer noopener">Mailing list</a><a href="https://gitter.im/EvoplexOrg">Project Chat</a><a href="https://twitter.com/EvoplexOrg" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/blog">Blog</a><a href="https://github.com/evoplex">GitHub</a><a class="github-button" href="https://github.com/evoplex/evoplex" data-icon="octicon-star" data-count-href="https://github.com/evoplex/evoplex" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Copyright © 2019 Marcos Cardinot</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>window.twttr=(function(d,s, id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return t;js=d.createElement(s);js.id=id;js.src='https://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js, fjs);t._e = [];t.ready = function(f) {t._e.push(f);};return t;}(document, 'script', 'twitter-wjs'));</script><script>
               var search = docsearch({
                 
                 apiKey: 'd069454e2b73d4dfc6bed1804197ca9d',
