@@ -27,3 +27,12 @@ Evoplex was originally developed to tackle problems in the field of **Evo**lutio
  * [Cellular Automata](https://en.wikipedia.org/wiki/Cellular_automaton)
  * [Complex Adaptive Systems](https://en.wikipedia.org/wiki/Complex_adaptive_system)
  * ... the applications are endless!
+
+
+## What's next?
+
+* [User Interface](user-interface) - Introduction to the basic UI and features of Evoplex GUI.
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=79YewPo6do0
+" target="_blank"><img src="http://img.youtube.com/vi/79YewPo6do0/0.jpg" 
+alt="" width="240" height="180" border="10" /></a>

@@ -16,6 +16,10 @@ Note that you do not need to compile Evoplex from source to be able to compile a
 ## Instructions for Linux <img src="/img/linux-logo.png" width="25" style="vertical-align: sub;">
 <details><summary>Show/Hide</summary>
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=tCMu_HqdmMo
+" target="_blank"><img src="http://img.youtube.com/vi/tCMu_HqdmMo/0.jpg" 
+alt="" width="240" height="180" border="10" /></a>
+
 ### Compiling the plugin from the command-line
 <details><summary>Show/Hide</summary>
 
