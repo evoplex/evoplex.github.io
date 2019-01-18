@@ -19,15 +19,15 @@ The dependencies to compile Evoplex or an Evoplex Plugin are as follows:
 * **Step 1 - Install C/C++ compiler and CMake:** Open the terminal and run the command below:
   * **Ubuntu and Debian:**
     ``` bash
-    sudo apt-get install build-essential libgl1-mesa-dev cmake
+    sudo apt-get install build-essential libgl1-mesa-dev cmake git
     ```
   * **Fedora**
     ``` bash
-    sudo dnf install gcc cmake
+    sudo dnf install gcc cmake git
     ```
   * **openSUSE**
     ``` bash
-    sudo zypper install gcc cmake
+    sudo zypper install gcc cmake git
     ```
 
 * **Step 2 - Install Qt Framework**
