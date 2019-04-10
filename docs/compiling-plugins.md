@@ -139,7 +139,7 @@ If you installed <a href="https://gitforwindows.org" target="_blank">Git</a> and
 
 <details><summary><b>2. I compiled Evoplex from the source code</b></summary>
 * Assuming you compiled **Evoplex** at `/c/evoplex/build`.
-* Run `export EvoplexCore_DIR=/c/evoplex/build/releases/lib/cmake/Evoplex`
+* Run `export EvoplexCore_DIR=/c/evoplex/evoplex/build/src/core/EvoplexCore`
 
 </details>
 
@@ -148,7 +148,7 @@ If you installed <a href="https://gitforwindows.org" target="_blank">Git</a> and
 5. Access the folder `cd build`
 6. Run cmake to generate the build files (make sure you specify the MSVS version properly)
     ``` bash
-    cmake.exe -G"Visual Studio 15 2017 Win64" ../evoplex
+    cmake.exe -G"Visual Studio 15 2017 Win64" ../
     ```
 7. Finally, build it!
     ``` bash
