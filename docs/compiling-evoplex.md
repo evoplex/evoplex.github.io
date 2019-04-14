@@ -48,7 +48,7 @@ If you installed [Git](https://gitforwindows.org/) and all [dependencies](instal
 3. Create a build directory and access it, ie., `mkdir build && cd build`
 4. Assuming the repository is at `C:/evoplex/evoplex`; run cmake to generate the build files
     ``` bash
-    cmake.exe -G"Visual Studio 15 2017 Win64" ../evoplex
+    cmake.exe -G "Visual Studio 15 2017 Win64" ../evoplex
     ```
 5. Finally, build it!
     ``` bash

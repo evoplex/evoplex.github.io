@@ -139,7 +139,7 @@ If you installed <a href="https://gitforwindows.org" target="_blank">Git</a> and
 
 <details><summary><b>2. I compiled Evoplex from the source code</b></summary>
 * Assuming you compiled **Evoplex** at `/c/evoplex/build`.
-* Run `export EvoplexCore_DIR=/c/evoplex/evoplex/build/src/core/EvoplexCore`
+* Run `export EvoplexCore_DIR=/c/evoplex/build/src/core/EvoplexCore`
 
 </details>
 
@@ -148,7 +148,7 @@ If you installed <a href="https://gitforwindows.org" target="_blank">Git</a> and
 5. Access the folder `cd build`
 6. Run cmake to generate the build files (make sure you specify the MSVS version properly)
     ``` bash
-    cmake.exe -G"Visual Studio 15 2017 Win64" ../
+    cmake.exe -G "Visual Studio 15 2017 Win64" ..
     ```
 7. Finally, build it!
     ``` bash
@@ -180,8 +180,8 @@ If you installed all <a href="installing-dependencies" target="_blank">dependenc
     * Choose the directory in which the plugin will be built (eg., `C:/evoplex/plugin/build/`)
     * Click on `Configure Project`
 4. In the Build Settings (`Projects` panel), add the `EvoplexCore_DIR` variable (directory -- <a href="/img/qtcreator-plugin.png" target="_blank">see this screenshot</a>) as follows:
-    * If you installed Evoplex from a **binary package** (e.g., at `c:\Program Files\evoplex`), the variable should be set to `c:\Program Files\evoplex\lib\cmake\Evoplex`
-    * If you compiled Evoplex from the **source code** (e.g., Evoplex was compiled at `c:\evoplex\build`), the variable should be set to `c:\evoplex\build\releases\lib\cmake\Evoplex`
+    * If you installed Evoplex from a **binary package** (e.g., at `C:\Program Files\evoplex`), the variable should be set to `C:\Program Files\evoplex\lib\cmake\Evoplex`
+    * If you compiled Evoplex from the **source code** (e.g., Evoplex was compiled at `C:\evoplex\build`), the variable should be set to `C:\evoplex\build\src\core\EvoplexCore`
     * Hit ENTER to confirm
 5. Click on `Apply Configuration Changes`
 6. In the Build Settings (`Projects` panel), make sure you target `ALL_BUILD` in the build steps
