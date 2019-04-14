@@ -178,7 +178,7 @@ alt="" width="240" height="180" border="10" /></a></p>
 <p><details><summary><b>2. I compiled Evoplex from the source code</b></summary></p>
 <ul>
 <li>Assuming you compiled <strong>Evoplex</strong> at <code>/c/evoplex/build</code>.</li>
-<li>Run <code>export EvoplexCore_DIR=/c/evoplex/build/releases/lib/cmake/Evoplex</code></li>
+<li>Run <code>export EvoplexCore_DIR=/c/evoplex/build/src/core/EvoplexCore</code></li>
 </ul>
 <p></details></p>
 <ol start="3">
@@ -186,7 +186,7 @@ alt="" width="240" height="180" border="10" /></a></p>
 <li>Create a folder <code>mkdir build</code></li>
 <li>Access the folder <code>cd build</code></li>
 <li>Run cmake to generate the build files (make sure you specify the MSVS version properly)
-<pre><code class="hljs css languages- bash">cmake.exe -G<span class="hljs-string">"Visual Studio 15 2017 Win64"</span> ../evoplex
+<pre><code class="hljs css languages- bash">cmake.exe -G <span class="hljs-string">"Visual Studio 15 2017 Win64"</span> ..
 </code></pre></li>
 <li>Finally, build it!
 <pre><code class="hljs css languages- bash">cmake.exe --build . --config Release --target ALL_BUILD
@@ -225,8 +225,8 @@ alt="" width="240" height="180" border="10" /></a></p>
 </ul></li>
 <li>In the Build Settings (<code>Projects</code> panel), add the <code>EvoplexCore_DIR</code> variable (directory -- <a href="/img/qtcreator-plugin.png" target="_blank">see this screenshot</a>) as follows:
 <ul>
-<li>If you installed Evoplex from a <strong>binary package</strong> (e.g., at <code>c:\Program Files\evoplex</code>), the variable should be set to <code>c:\Program Files\evoplex\lib\cmake\Evoplex</code></li>
-<li>If you compiled Evoplex from the <strong>source code</strong> (e.g., Evoplex was compiled at <code>c:\evoplex\build</code>), the variable should be set to <code>c:\evoplex\build\releases\lib\cmake\Evoplex</code></li>
+<li>If you installed Evoplex from a <strong>binary package</strong> (e.g., at <code>C:\Program Files\evoplex</code>), the variable should be set to <code>C:\Program Files\evoplex\lib\cmake\Evoplex</code></li>
+<li>If you compiled Evoplex from the <strong>source code</strong> (e.g., Evoplex was compiled at <code>C:\evoplex\build</code>), the variable should be set to <code>C:\evoplex\build\src\core\EvoplexCore</code></li>
 <li>Hit ENTER to confirm</li>
 </ul></li>
 <li>Click on <code>Apply Configuration Changes</code></li>
