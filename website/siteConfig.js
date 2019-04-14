@@ -73,7 +73,7 @@ const siteConfig = {
   twitterImage: 'img/evoplex.png',
 
   /* enable edit button for docs */
-  editUrl: 'https://github.com/evoplex/evoplex.github.io/edit/master/docs/',
+  editUrl: 'https://github.com/evoplex/evoplex.github.io/edit/src/docs/',
 
   translationRecruitingLink: 'https://crowdin.com/project/evoplex',
 
