@@ -49,29 +49,121 @@
             });
         </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://crowdin.com/project/evoplex/pt-BR" target="_blank" rel="noreferrer noopener">Translate</a><h1 class="postHeaderTitle">How to compile a plugin</h1></header><article><div><span><p>This document will guide you through compiling an Evoplex plugin.</p>
 <h2><a class="anchor" aria-hidden="true" id="prerequisites"></a><a href="#prerequisites" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Prerequisites</h2>
-<p>Install all dependencies described <a href="installing-dependencies">here</a>.</p>
+<p>Install all dependencies described <a href="installing-dependencies" target="_blank">here</a>.</p>
 <p>Note that you do not need to compile Evoplex from source to be able to compile a plugin. However, if you did, you already have all dependencies and so, you <strong>do not</strong> have to install anything else.</p>
 <blockquote>
 <p><strong>Important note:</strong> The plugin <strong>must</strong> be compiled with the same architecture (32/64 bits) and mode (<em>Release/Debug</em>) of Evoplex.</p>
 </blockquote>
-<h2><a class="anchor" aria-hidden="true" id="compiling-a-plugin"></a><a href="#compiling-a-plugin" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Compiling a plugin</h2>
-<p>Despite not needing to compile Evoplex from source, the process to build Evoplex or a plugin is the same.</p>
-<p>Thus, to compile a plugin, you should follow the steps described in <a href="">this document</a>.</p>
+<h2><a class="anchor" aria-hidden="true" id="instructions-for-linux-img-src-img-linux-logopng-width-25-style-vertical-align-sub"></a><a href="#instructions-for-linux-img-src-img-linux-logopng-width-25-style-vertical-align-sub" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Instructions for Linux <img src="/img/linux-logo.png" width="25" style="vertical-align: sub;" /></h2>
+<p><details><summary>Show/Hide</summary></p>
+<p><a href="http://www.youtube.com/watch?feature=player_embedded&v=tCMu_HqdmMo
+" target="_blank"><img src="http://img.youtube.com/vi/tCMu_HqdmMo/0.jpg" 
+alt="" width="240" height="180" border="10" /></a></p>
+<h3><a class="anchor" aria-hidden="true" id="compiling-the-plugin-from-the-command-line"></a><a href="#compiling-the-plugin-from-the-command-line" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Compiling the plugin from the command-line</h3>
+<p><details><summary>Show/Hide</summary></p>
+<p><details><summary><strong>1. I run Evoplex from an AppImage</strong></summary> * Go to the directory where the Evoplex AppImage is (e.g., <code>cd ~/evoplex</code>) * Run <code>./evoplex.AppImage --appimage-extract</code> to extract the AppImage to <code>~/evoplex/squashfs-root</code> * Run <code>export EvoplexCore_DIR=~/evoplex/squashfs-root/usr/lib/cmake/Evoplex/</code> </details></p>
+<p><details><summary><strong>1. I compiled Evoplex from the source code</strong></summary> * Assuming you compiled <strong>Evoplex</strong> at <code>~/evoplex/build</code>. * Run <code>export EvoplexCore_DIR=~/evoplex/build/src/core/EvoplexCore/</code></p>
+<p></details></p>
+<ol>
+<li>Go to the plugin's directory (e.g., <code>cd ~/evoplex/plugin/</code>)</li>
+<li>Create a folder <code>mkdir build</code></li>
+<li>Access the folder <code>cd build</code></li>
+<li>Run <code>cmake ..</code></li>
+<li>Run <code>cmake --build .</code></li>
+<li>The plugin (i.e., dynamic library file -- <code>.so</code> on Linux) will be placed at <code>~/evoplex/plugin/build/plugin/</code> </details></li>
+</ol>
+<h3><a class="anchor" aria-hidden="true" id="compiling-the-plugin-with-qtcreator"></a><a href="#compiling-the-plugin-with-qtcreator" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Compiling the plugin with QtCreator</h3>
+<p><details><summary>Show/Hide</summary></p>
+<p><details><summary><strong>If you run Evoplex from an AppImage, click HERE!</strong></summary> * Open the terminal * Go to the directory where the Evoplex AppImage is (e.g., <code>cd ~/evoplex</code>) * Run <code>./evoplex.AppImage --appimage-extract</code> to extract the AppImage to <code>~/evoplex/squashfs-root</code></p>
+<p></details></p>
+<ol>
+<li>In the toolbar, click on <code>File =&gt; Open File or Project...</code></li>
+<li>In the plugin's directory (e.g., <code>~/evoplex/plugin/</code>), select the <code>CMakeLists.txt</code> file</li>
+<li>Open the <code>Projects</code> panel (it may open automatically when you first open the CMake file)
 <ul>
-<li><p>After compiling the plugin, the dynamic library file (i.e., <code>.so</code> on Linux, <code>.dll</code> on Windows and <code>.dylib</code> on macOS) will be placed at <code>your-build-dir/plugin/</code>.</p></li>
-<li><p>If you get an <strong>error</strong> like <strong><code>FindEvoplexCore.cmake</code> not found</strong>. Make sure you set the <code>EvoplexCore_DIR</code> variable correctly! For instance:</p>
-<ul>
-<li><p><strong>if using QtCreator</strong>, go to the <code>Projects</code> panel; if it shows <code>EvoplexCore_DIR-NOTFOUND</code> and you compiled Evoplex from source (eg., at <code>~/evoplex/build</code>), set it to <code>~/evoplex/build/src/core/EvoplexCore/</code> as shown <a href="/img/qtcreator-plugin.png" target="_blank">here</a>.</p></li>
-<li><p><strong>if building from command-line</strong> and compiled Evoplex from source, eg., at <code>~/evoplex/build</code>, you should run:</p>
-<pre><code class="hljs css languages- bash"><span class="hljs-built_in">export</span> EvoplexCore_DIR=~/evoplex/build/src/core/EvoplexCore/
-</code></pre>
-<p></details></p></li>
+<li>Select the desired modes (e.g., Release)</li>
+<li>Choose the directory in which the plugin will be built (eg., <code>~/evoplex/plugin/build/</code>)</li>
+<li>Click on <code>Configure Project</code></li>
 </ul></li>
-</ul>
+<li>In the Build Settings (<code>Projects</code> panel), add the <code>EvoplexCore_DIR</code> variable (directory -- <a href="/img/qtcreator-plugin.png" target="_blank">see this screenshot</a>) as follows:
+<ul>
+<li>If you extracted the Evoplex libs from an <strong>AppImage</strong> (e.g., at <code>~/evoplex/squashfs-root</code>), the variable should be set to <code>~/evoplex/squashfs-root/usr/lib/cmake/Evoplex</code></li>
+<li>If you compiled Evoplex from the <strong>source code</strong> (e.g., Evoplex was compiled at <code>~/evoplex/build/</code>), the variable should be set to <code>~/evoplex/build/src/core/EvoplexCore</code></li>
+<li>Hit ENTER to confirm</li>
+</ul></li>
+<li>Click on <code>Apply Configuration Changes</code></li>
+<li>Click on Build</li>
+<li>The plugin (i.e., dynamic library file -- <code>.so</code> on Linux) will be placed at <code>~/evoplex/plugin/build/plugin/</code> </details></li>
+</ol>
+<p></details></p>
+<h2><a class="anchor" aria-hidden="true" id="instructions-for-macos-img-src-img-apple-logosvg-width-25-style-vertical-align-sub"></a><a href="#instructions-for-macos-img-src-img-apple-logosvg-width-25-style-vertical-align-sub" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Instructions for macOS <img src="/img/apple-logo.svg" width="25" style="vertical-align: sub;" /></h2>
+<p><details><summary>Show/Hide</summary></p>
+<h3><a class="anchor" aria-hidden="true" id="compiling-the-plugin-from-the-command-line-1"></a><a href="#compiling-the-plugin-from-the-command-line-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Compiling the plugin from the command-line</h3>
+<p><details><summary>Show/Hide</summary></p>
+<p><details><summary><strong>1. I installed Evoplex from a DMG file</strong></summary> * Assuming that <strong>Evoplex</strong> is installed at <code>/Applications/evoplex.app</code> * Run <code>export EvoplexCore_DIR=/Applications/evoplex.app/Contents/MacOS/lib/cmake/Evoplex</code> </details></p>
+<p><details><summary><strong>1. I compiled Evoplex from the source code</strong></summary> * Assuming you compiled <strong>Evoplex</strong> at <code>~/evoplex/build</code>. * Run <code>export EvoplexCore_DIR=~/evoplex/build/evoplex.app/Contents/MacOS/lib/cmake/Evoplex</code></p>
+<p></details></p>
+<ol>
+<li>Go to the plugin's directory (e.g., <code>cd ~/evoplex/plugin/</code>)</li>
+<li>Create a folder <code>mkdir build</code></li>
+<li>Access the folder <code>cd build</code></li>
+<li>Run <code>cmake ..</code></li>
+<li>Run <code>cmake --build .</code></li>
+<li>The plugin (i.e., dynamic library file -- <code>.dylib</code> on macOS) will be placed at <code>~/evoplex/plugin/build/plugin/</code> </details></li>
+</ol>
+<h3><a class="anchor" aria-hidden="true" id="compiling-the-plugin-with-qtcreator-1"></a><a href="#compiling-the-plugin-with-qtcreator-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Compiling the plugin with QtCreator</h3>
+<p><details><summary>Show/Hide</summary> 1. In the toolbar, click on <code>File =&gt; Open File or Project...</code> 2. In the plugin's directory (e.g., <code>~/evoplex/plugin/</code>), select the <code>CMakeLists.txt</code> file 3. Open the <code>Projects</code> panel (it may open automatically when you first open the CMake file) * Select the desired modes (e.g., Release) * Choose the directory in which the plugin will be built (eg., <code>~/evoplex/plugin/build/</code>) * Click on <code>Configure Project</code> 4. In the Build Settings (<code>Projects</code> panel), add the <code>EvoplexCore_DIR</code> variable (directory -- <a href="/img/qtcreator-plugin.png" target="_blank">see this screenshot</a>) as follows: * If you installed Evoplex from a <strong>DMG</strong> file (e.g., at <code>/Applications/evoplex.app</code>), the variable should be set to <code>/Applications/evoplex.app/Contents/MacOS/lib/cmake/Evoplex</code> * If you compiled Evoplex from the <strong>source code</strong> (e.g., Evoplex was compiled at <code>~/evoplex/build/</code>), the variable should be set to <code>~/evoplex/build/evoplex.app/Contents/MacOS/lib/cmake/Evoplex</code> * Hit ENTER to confirm 5. Click on <code>Apply Configuration Changes</code> 6. Click on Build 7. The plugin (i.e., dynamic library file -- <code>.so</code> on Linux) will be placed at <code>~/evoplex/plugin/build/plugin/</code> </details></p>
+<p></details></p>
+<h2><a class="anchor" aria-hidden="true" id="instructions-for-windows-img-src-img-windows-logopng-width-25-style-vertical-align-sub"></a><a href="#instructions-for-windows-img-src-img-windows-logopng-width-25-style-vertical-align-sub" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Instructions for Windows <img src="/img/windows-logo.png" width="25" style="vertical-align: sub;" /></h2>
+<p><details><summary>Show/Hide</summary></p>
+<h3><a class="anchor" aria-hidden="true" id="compiling-the-plugin-from-the-command-line-2"></a><a href="#compiling-the-plugin-from-the-command-line-2" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Compiling the plugin from the command-line</h3>
+<p><details><summary>Show/Hide</summary></p>
+<p>If you installed <a href="https://gitforwindows.org" target="_blank">Git</a> and all <a href="installing-dependencies" target="_blank">dependencies</a> correctly, you should have Git Bash installed on your computer. 1. Open Git Bash</p>
+<p><details><summary><strong>2. I installed Evoplex from a binary package (exe file)</strong></summary> * Assuming that <strong>Evoplex</strong> is installed at <code>/c/Program\ Files/evoplex/</code> * Run <code>export EvoplexCore_DIR=/c/Program\ Files/evoplex/lib/cmake/Evoplex</code> </details></p>
+<p><details><summary><strong>2. I compiled Evoplex from the source code</strong></summary> * Assuming you compiled <strong>Evoplex</strong> at <code>/c/evoplex/build</code>. * Run <code>export EvoplexCore_DIR=/c/evoplex/build/src/core/EvoplexCore</code></p>
+<p></details></p>
+<ol>
+<li><p>Go to the plugin's directory (e.g., <code>cd /c/evoplex/plugin/</code>)</p></li>
+<li><p>Create a folder <code>mkdir build</code></p></li>
+<li><p>Access the folder <code>cd build</code></p></li>
+<li><p>Run cmake to generate the build files (make sure you specify the MSVS version properly)
+bash
+cmake.exe -G &quot;Visual Studio 15 2017 Win64&quot; ..</p></li>
+<li><p>Finally, build it!
+bash
+cmake.exe --build . --config Release --target ALL_BUILD</p></li>
+<li><p>The plugin (i.e., <code>.dll</code> file) will be placed at <code>/c/evoplex/plugin/build/plugin/</code> </details></p></li>
+</ol>
+<h3><a class="anchor" aria-hidden="true" id="compiling-the-plugin-with-qtcreator-2"></a><a href="#compiling-the-plugin-with-qtcreator-2" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Compiling the plugin with QtCreator</h3>
+<p><details><summary>Show/Hide</summary></p>
+<h4><a class="anchor" aria-hidden="true" id="i-configuring-qtcreator"></a><a href="#i-configuring-qtcreator" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>I. Configuring QtCreator</h4>
+<p>If you installed all <a href="installing-dependencies" target="_blank">dependencies</a> correctly, and have not used QtCreator for Evoplex before: 1. In QtCreator, open <code>Tools =&gt; Options...</code> in the toolbar 2. Open the 'Kits' tab in the <code>Build&amp;Run</code> panel. 3. Click on the auto-detected kit (eg., <em>Desktop Qt 5.9.5 MSVC2017 64bit</em>) 1. Make sure the compiler (C and C++) is set correctly. For example: * C <code>Microsoft Visual C++ Compiler 15.0 (amd64)</code> * C++ <code>Microsoft Visual C++ Compiler 15.0 (amd64)</code> 2. Make sure that the path to the <code>CMake Tool</code> was detected (eg., <code>C:\Program Files\CMake\bin\cmake.exe</code>) 3. Make sure the CMake generator is set to your version of Visual Studio (eg., <code>Visual Studio 15 2017 Win64</code>). Leave the fields <code>Platform</code> and <code>Toolset</code> blank. 4. Click OK</p>
+<h4><a class="anchor" aria-hidden="true" id="ii-configuring-qtcreator-for-the-evoplex-plugin"></a><a href="#ii-configuring-qtcreator-for-the-evoplex-plugin" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>II. Configuring QtCreator for the Evoplex plugin</h4>
+<ol>
+<li>In the toolbar, click on <code>File =&gt; Open File or Project...</code></li>
+<li>In the plugin's directory (e.g., <code>C:\evoplex\plugin</code>), select the <code>CMakeLists.txt</code> file</li>
+<li>Open the <code>Projects</code> panel (it may open automatically when you first open the CMake file)
+<ul>
+<li>Select the desired modes (eg., Release)</li>
+<li>Choose the directory in which the plugin will be built (eg., <code>C:/evoplex/plugin/build/</code>)</li>
+<li>Click on <code>Configure Project</code></li>
+</ul></li>
+<li>In the Build Settings (<code>Projects</code> panel), add the <code>EvoplexCore_DIR</code> variable (directory -- <a href="/img/qtcreator-plugin.png" target="_blank">see this screenshot</a>) as follows:
+<ul>
+<li>If you installed Evoplex from a <strong>binary package</strong> (e.g., at <code>C:\Program Files\evoplex</code>), the variable should be set to <code>C:\Program Files\evoplex\lib\cmake\Evoplex</code></li>
+<li>If you compiled Evoplex from the <strong>source code</strong> (e.g., Evoplex was compiled at <code>C:\evoplex\build</code>), the variable should be set to <code>C:\evoplex\build\src\core\EvoplexCore</code></li>
+<li>Hit ENTER to confirm</li>
+</ul></li>
+<li>Click on <code>Apply Configuration Changes</code></li>
+<li>In the Build Settings (<code>Projects</code> panel), make sure you target <code>ALL_BUILD</code> in the build steps</li>
+<li>Click on Build</li>
+</ol>
+<p></details></p>
+<p></details></p>
 <blockquote>
-<p>Need help? <a href="/help">click here</a></p>
+<p>Need help? <a href="/help" target="_blank">click here</a></p>
 </blockquote>
-</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/pt-BR/compiling-evoplex">← Compiling Evoplex</a><a class="docs-next button" href="/docs/pt-BR/running-plugins">How to run a plugin →</a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#prerequisites">Prerequisites</a></li><li><a href="#compiling-a-plugin">Compiling a plugin</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/evoplex.svg" alt="Evoplex" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/pt-BR/intro.html">Getting Started</a></div><div><h5>Community</h5><a href="https://groups.google.com/group/evoplex" target="_blank" rel="noreferrer noopener">Mailing list</a><a href="https://gitter.im/EvoplexOrg">Project Chat</a><a href="https://twitter.com/EvoplexOrg" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/blog">Blog</a><a href="https://github.com/evoplex">GitHub</a><a class="github-button" href="https://github.com/evoplex/evoplex" data-icon="octicon-star" data-count-href="https://github.com/evoplex/evoplex" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Copyright © 2019 Marcos Cardinot</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>window.twttr=(function(d,s, id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return t;js=d.createElement(s);js.id=id;js.src='https://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js, fjs);t._e = [];t.ready = function(f) {t._e.push(f);};return t;}(document, 'script', 'twitter-wjs'));</script><script>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/pt-BR/compiling-evoplex">← Compiling Evoplex</a><a class="docs-next button" href="/docs/pt-BR/running-plugins">How to run a plugin →</a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#prerequisites">Prerequisites</a></li><li><a href="#instructions-for-linux-img-src-img-linux-logopng-width-25-style-vertical-align-sub">Instructions for Linux</a><ul class="toc-headings"><li><a href="#compiling-the-plugin-from-the-command-line">Compiling the plugin from the command-line</a></li><li><a href="#compiling-the-plugin-with-qtcreator">Compiling the plugin with QtCreator</a></li></ul></li><li><a href="#instructions-for-macos-img-src-img-apple-logosvg-width-25-style-vertical-align-sub">Instructions for macOS</a><ul class="toc-headings"><li><a href="#compiling-the-plugin-from-the-command-line-1">Compiling the plugin from the command-line</a></li><li><a href="#compiling-the-plugin-with-qtcreator-1">Compiling the plugin with QtCreator</a></li></ul></li><li><a href="#instructions-for-windows-img-src-img-windows-logopng-width-25-style-vertical-align-sub">Instructions for Windows</a><ul class="toc-headings"><li><a href="#compiling-the-plugin-from-the-command-line-2">Compiling the plugin from the command-line</a></li><li><a href="#compiling-the-plugin-with-qtcreator-2">Compiling the plugin with QtCreator</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/evoplex.svg" alt="Evoplex" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/pt-BR/intro.html">Getting Started</a></div><div><h5>Community</h5><a href="https://groups.google.com/group/evoplex" target="_blank" rel="noreferrer noopener">Mailing list</a><a href="https://gitter.im/EvoplexOrg">Project Chat</a><a href="https://twitter.com/EvoplexOrg" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/blog">Blog</a><a href="https://github.com/evoplex">GitHub</a><a class="github-button" href="https://github.com/evoplex/evoplex" data-icon="octicon-star" data-count-href="https://github.com/evoplex/evoplex" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Copyright © 2019 Marcos Cardinot</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>window.twttr=(function(d,s, id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return t;js=d.createElement(s);js.id=id;js.src='https://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js, fjs);t._e = [];t.ready = function(f) {t._e.push(f);};return t;}(document, 'script', 'twitter-wjs'));</script><script>
               var search = docsearch({
                 
                 apiKey: 'd069454e2b73d4dfc6bed1804197ca9d',

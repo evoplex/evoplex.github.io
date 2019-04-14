@@ -49,80 +49,84 @@
             });
         </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://crowdin.com/project/evoplex/pt-BR" target="_blank" rel="noreferrer noopener">Translate</a><h1 class="postHeaderTitle">Installing Dependencies</h1></header><article><div><span><p>The dependencies to compile Evoplex or an Evoplex Plugin are as follows: * C/C++ compiler * CMake &gt;= 3.1.0 * Qt Framework &gt;= 5.8 (recommended: 5.9.5) * <em>base components:</em> QtCore, QtConcurrent, QtNetwork, QtWidgets, QtTest and QtSvg * <em>additional component:</em> QtCharts</p>
 <blockquote>
-<p>Need help? <a href="/help">click here</a></p>
+<p>Need help? <a href="/help" target="_blank">click here</a></p>
 </blockquote>
 <h2><a class="anchor" aria-hidden="true" id="instructions-for-linux-img-src-img-linux-logopng-width-25-style-vertical-align-sub"></a><a href="#instructions-for-linux-img-src-img-linux-logopng-width-25-style-vertical-align-sub" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Instructions for Linux <img src="/img/linux-logo.png" width="25" style="vertical-align: sub;" /></h2>
 <p><details><summary>Show/Hide</summary></p>
 <ul>
-<li><p><strong>C/C++ compiler and CMake:</strong> Open the terminal and run the command below:</p>
+<li><p><strong>Step 1 - Install C/C++ compiler and CMake:</strong> Open the terminal and run the command below:</p>
 <ul>
 <li><strong>Ubuntu and Debian:</strong></li>
 </ul>
-<pre><code class="hljs css languages- bash">sudo apt-get install build-essential libgl1-mesa-dev cmake
+<pre><code class="hljs css languages- bash">sudo apt-get install build-essential libgl1-mesa-dev cmake git
 </code></pre>
 <ul>
-<li>Fedora</li>
+<li><strong>Fedora</strong></li>
 </ul>
-<pre><code class="hljs css languages- bash">sudo dnf install gcc cmake
+<pre><code class="hljs css languages- bash">sudo dnf install gcc cmake git
 </code></pre>
 <ul>
-<li>openSUSE</li>
+<li><strong>openSUSE</strong></li>
 </ul>
-<pre><code class="hljs css languages- bash">sudo zypper install gcc cmake
+<pre><code class="hljs css languages- bash">sudo zypper install gcc cmake git
 </code></pre></li>
-<li><p><strong>Qt Framework</strong></p>
+<li><p><strong>Step 2 - Install Qt Framework</strong></p>
 <ul>
-<li><p>Download and install the <u>recommended version</u> of Qt using their <a href="https://www.qt.io/download">installer</a> <strong>(select the open source license)</strong>.</p></li>
+<li><p>Download and install the <u>recommended version</u> of Qt using their <a href="https://www.qt.io/download" target="_blank">installer</a> <strong>(select the open source license)</strong>.</p></li>
 <li><p>The required packages are <code>Desktop gcc</code> and <code>Qt Charts</code>.</p></li>
-<li><p>It's recommended that you install it at <code>/opt/Qt/</code>.</p></li>
-<li><p>You should add Qt to your <code>PATH</code> variable as follows (assuming you installed Qt 5.9.5):
+<li><p>Select a directory to install Qt, e.g., <code>/opt/qt/</code>.</p></li>
+<li><p>Add Qt to the <code>PATH</code> and <code>CMAKE_PREFIX_PATH</code> variables in your <code>~/.bashrc</code> file. For example, assuming you installed Qt 5.9.5 at <code>/opt/qt/</code>:
 bash
-export PATH=/opt/Qt/5.9.5/gcc_64/bin:$PATH</p>
-<p><strong>⇒ tip:</strong> to make it permanent, add this line at end of your <code>~/bashrc</code> file. </details></p></li>
+echo 'export CMAKE_PREFIX_PATH=/opt/qt/5.9.5/gcc_64/' &gt;&gt; ~/.bashrc
+echo 'export PATH=/opt/qt/5.9.5/gcc_64/bin/:$PATH' &gt;&gt; ~/.bashrc</p></li>
+<li><p><strong>Close the terminal and open again!</strong> </details></p></li>
 </ul></li>
 </ul>
 <h2><a class="anchor" aria-hidden="true" id="instructions-for-macos-img-src-img-apple-logosvg-width-25-style-vertical-align-sub"></a><a href="#instructions-for-macos-img-src-img-apple-logosvg-width-25-style-vertical-align-sub" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Instructions for macOS <img src="/img/apple-logo.svg" width="25" style="vertical-align: sub;" /></h2>
 <p><details><summary>Show/Hide</summary></p>
 <ul>
-<li><p><strong>XCode:</strong></p>
+<li><p><strong>Step 1 - Install XCode:</strong></p>
 <ul>
 <li>Download the latest Xcode package from the Mac App Store for your system (it's free).</li>
 </ul></li>
-<li><p><strong>CMake:</strong></p>
+<li><p><strong>Step 2 - Install CMake:</strong></p>
 <ul>
-<li><a href="https://cmake.org/download">Download</a> and install the latest version of CMake.</li>
+<li><a href="https://cmake.org/download" target="_blank">Download</a> and install the latest version of CMake.</li>
 <li>When installing, select the <code>Add CMake to the system PATH for all users</code> option.</li>
 </ul></li>
-<li><p><strong>Qt Framework</strong></p>
+<li><p><strong>Step 3 - Install Qt Framework</strong></p>
 <ul>
-<li><p>Download and install the <u>recommended version</u> of Qt using their <a href="https://www.qt.io/download">installer</a> <strong>(select the open source license)</strong>.</p></li>
+<li><p>Download and install the <u>recommended version</u> of Qt using their <a href="https://www.qt.io/download" target="_blank">installer</a> <strong>(select the open source license)</strong>.</p></li>
 <li><p>The required packages are <code>macOS</code> and <code>Qt Charts</code>.</p></li>
-<li><p>Suppose you installed it at <code>/Users/you/Qt/</code>, you must add Qt to your <code>PATH</code> variable as follows (assuming you installed Qt 5.9.5):
+<li><p>Select a directory to install Qt, e.g., <code>/Users/you/qt/</code>.</p></li>
+<li><p>Add Qt to the <code>PATH</code> and <code>CMAKE_PREFIX_PATH</code> variables in your <code>~/.bashrc</code> file. For example, assuming you installed Qt 5.9.5 at <code>/Users/you/qt/</code>:
 bash
-export PATH=/Users/you/Qt/5.9.5/clang_64/:/Users/you/Qt/5.9.5/clang_64/bin/:$PATH</p>
-<p><strong>⇒ tip:</strong> to make it permanent, add this line at end of your <code>~/bashrc</code> file. </details></p></li>
+echo 'export CMAKE_PREFIX_PATH=/Users/you/qt/5.9.5/clang_64/' &gt;&gt; ~/.bashrc
+echo 'export PATH=/Users/you/qt/5.9.5/clang_64/bin/:$PATH' &gt;&gt; ~/.bashrc</p></li>
+<li><p><strong>Close the terminal and open again!</strong> </details></p></li>
 </ul></li>
 </ul>
 <h2><a class="anchor" aria-hidden="true" id="instructions-for-windows-img-src-img-windows-logopng-width-25-style-vertical-align-sub"></a><a href="#instructions-for-windows-img-src-img-windows-logopng-width-25-style-vertical-align-sub" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Instructions for Windows <img src="/img/windows-logo.png" width="25" style="vertical-align: sub;" /></h2>
 <p><details><summary>Show/Hide</summary></p>
 <ul>
-<li><p><strong>Microsoft Visual Studio 2017:</strong></p>
+<li><p><strong>Step 1 - Install Microsoft Visual Studio (MSVC):</strong></p>
 <ul>
-<li><a href="https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&amp;rel=15">Download</a> and install the <code>Desktop development with C++</code> component.</li>
-<li>⇒ Any MVS version is fine, e.g., <em>Community</em>, <em>Professional</em> or <em>Enterprise</em>.</li>
+<li>We recommend <strong>MSVC 2017</strong>, but MSVC &gt;= 2013 should be fine.</li>
+<li><a href="https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15" target="_blank">Download</a> and install the <code>Desktop development with C++</code> component.</li>
+<li>⇒ Any MSVC version is fine, e.g., <em>Community</em>, <em>Professional</em> or <em>Enterprise</em>.</li>
 </ul></li>
-<li><p><strong>CMake:</strong></p>
+<li><p><strong>Step 2 - Install CMake:</strong></p>
 <ul>
-<li><a href="https://cmake.org/download">Download</a> and install the latest version of CMake, eg., <code>cmake-3.11.3-win64-x64.msi</code></li>
+<li><a href="https://cmake.org/download" target="_blank">Download</a> and install the latest version of CMake, eg., <code>cmake-3.11.3-win64-x64.msi</code></li>
 <li>When installing, select the <code>Add CMake to the system PATH for all users</code> option.</li>
 </ul></li>
-<li><p><strong>Qt Framework:</strong></p>
+<li><p><strong>Step 3 - Install Qt Framework:</strong></p>
 <ul>
-<li><p>Download and install the <u>recommended version</u> of Qt using their <a href="https://www.qt.io/download">installer</a> <strong>(select the open source license)</strong>.</p></li>
-<li><p>The required packages are <code>Qt MSVC2017</code> (use the same version of your MVS) and <code>Qt Charts</code></p></li>
+<li><p>Download and install the <u>recommended version</u> of Qt using their <a href="https://www.qt.io/download" target="_blank">installer</a> <strong>(select the open source license)</strong>.</p></li>
+<li><p>The required packages are <code>Qt MSVC2017</code> (use the same version of your MSVC) and <code>Qt Charts</code></p></li>
 <li><p>It's recommended that you install it at <code>C:\Qt</code></p></li>
-<li><p>You should add Qt to your <code>PATH</code> variable as follows:</p></li>
-<li><p><em>If you installed Qt for 64-bit:</em> (assuming you installed <em>Qt 5.9.5</em>)
+<li><p>You should add Qt to your <code>PATH</code> variable as follows (assuming you installed <em>Qt 5.9.5</em> at <code>c:\Qt</code>):</p></li>
+<li><p><em>If you installed Qt for 64-bit:</em>
 bash
 C:\Qt\Qt5.9.5\msvc2017_64;C:\Qt\Qt5.9.5\msvc2017_64\bin;C:\Qt\Qt5.9.5\msvc2017_64\lib;C:\Qt\Qt5.9.5\msvc2017_64\include</p></li>
 <li><p><em>If you installed Qt for 32-bit:</em></p>
@@ -132,8 +136,8 @@ C:\Qt\Qt5.9.5\msvc2017_64;C:\Qt\Qt5.9.5\msvc2017_64\bin;C:\Qt\Qt5.9.5\msvc2017_6
 <li>How to set the <code>PATH</code> on Windows 10 and 8:
 <ol>
 <li>Search for <code>Edit Environment Variables</code>, click <a href="/img/windows-envvar.png" target="_blank">Environment Variables</a>.</li>
-<li>In the section System Variables, find the PATH environment variable and select it.</li>
-<li>Click Edit. If the PATH environment variable does not exist, click New.</li>
+<li>In the section System Variables, find the <code>PATH</code> environment variable and select it.</li>
+<li>Click Edit. If the <code>PATH</code> environment variable does not exist, click New.</li>
 <li>In the Edit System Variable (or New System Variable) window, copy the value specified above.</li>
 <li>Click OK. Close all remaining windows by clicking OK.</li>
 </ol></li>
