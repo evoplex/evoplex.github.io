@@ -22,7 +22,7 @@ class Help extends React.Component {
     const supportLinks = [
       {
         title: <translate>Browse Docs</translate>,
-        content: (<translate>Learn more about Evoplex using the [official documentation.](/docs/en/intro.html)</translate>),
+        content: (<translate>Learn more about Evoplex using the [official documentation.](/docs/index.html)</translate>),
       },
       {
         title: <translate>Join the community</translate>,

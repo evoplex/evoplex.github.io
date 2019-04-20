@@ -160,7 +160,7 @@ class Index extends React.Component {
               It also provides a bunch of useful tools including interactive
               graph and grid views.
             </translate></p>
-            <a className="learnmore" href={docUrl('intro.html', language)}>
+            <a className="learnmore" href={docUrl('index.html', language)}>
               <translate>Learn more</translate>
             </a>
           </div>
