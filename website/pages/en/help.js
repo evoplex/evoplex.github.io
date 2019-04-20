@@ -26,7 +26,7 @@ class Help extends React.Component {
       },
       {
         title: <translate>Join the community</translate>,
-        content: (<translate>- Ask questions in the [mailing list](https://groups.google.com/group/evoplex) or send an email to evoplex@googlegroups.com \n- You can follow and contact us on [Twitter](https://twitter.com/EvoplexOrg).\n - If chat is more your speed, you can join us on [Gitter](https://gitter.im/EvoplexOrg/evoplex).</translate>),
+        content: (<translate>- Ask questions in the [mailing list](https://groups.google.com/group/evoplex) or send an email to evoplex@googlegroups.com \n- You can follow and contact us on [Twitter](https://twitter.com/EvoplexOrg).\n - If chat is more your speed, you can join us on [ZulipChat](https://evoplex.zulipchat.com).</translate>),
       },
       {
         title: <translate>Bugs and Requests</translate>,

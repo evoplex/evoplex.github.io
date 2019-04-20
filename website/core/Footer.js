@@ -40,7 +40,7 @@ class Footer extends React.Component {
               rel="noreferrer noopener">
               Mailing list
             </a>
-            <a href="https://gitter.im/EvoplexOrg">Project Chat</a>
+            <a href="https://evoplex.zulipchat.com">Project Chat</a>
             <a
               href="https://twitter.com/EvoplexOrg"
               target="_blank"
