@@ -27,7 +27,7 @@ The dependencies to compile Evoplex or an Evoplex Plugin are as follows:
     ```
   * **openSUSE**
     ``` bash
-    sudo zypper install gcc cmake git
+    sudo zypper install g++ gcc mesa-libGL-devel cmake git
     ```
 
 * **Step 2 - Install Qt Framework**
